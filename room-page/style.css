@@ -46,6 +46,10 @@
 
 /* Big device*/
 @media only screen and (min-width: 425px) {
+    .button{
+        margin: 5%;
+    }
+
     body{
         background-color: #154551;
         color: #b87a40;
@@ -60,6 +64,11 @@
     
     nav{
         border: 2px solid #b87a40;
+    }
+
+    #nav-box{
+        display: flex;
+        justify-content: center;
     }
     
     main{
