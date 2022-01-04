@@ -1,3 +1,9 @@
 # the-start-up-spaghetti-code
 
-Koen Dante Colin
+This is the project of Koen, Dante and Colin
+
+color-pallet:
+
+background-color: #154551;
+color: #b87a40;
+
