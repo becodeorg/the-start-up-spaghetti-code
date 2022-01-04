@@ -1,5 +1,131 @@
+/* general*/
 * {
     margin: 0;
     padding: 0;
+    color: #b87a40;
+    }
+body{
+    background-color: #154551;
+}
+
+/* contact banner*/
+.top{
+    width: 100vw;
+    height: 20vh;
+}
+.top p{
+    font-size: 500%;
+    text-align: center;
+    line-height: 20vh;
+}
+
+/*main body*/
+.info{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    margin: 5%;
+}
+.form{
+    width: 30%;
+    min-height: 500px;
+    border: #b87a40 solid 1px;
+    box-shadow: 5px 5px 2px;
+    padding: 5px;
+    margin-right: 5%;
+}
+.form p{
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+}
+#textfield{
+    height: 60%;
+    width: 90%;
+    margin-left: 5%;
+}
+#submit{
+    float: right;
+    margin-top: 5px;
+    margin-right: 5%;
+}
+.details{
+    width: 30%;
+    min-height: 500px;
+    margin-right: 5%;
+}
+.picture{
+    width: 30%;
+    min-height: 500px;
+    border: solid #b87a40 1px;
+    box-shadow: 5px 5px 2px;
+    background-image: url(../img/plant.jpg);
+    background-size: cover;
+    background-position:center
+}
+.location{
+    height: 50%;
+    text-align: center;
+}
+.contact{
+    height: 50%;
+    text-align: center;  
+}
+.pmain{
+    padding: 5px;
+    text-align: center;
+    font-size: 40px;
+}
+.punderline{
+    font-family: sans-serif;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+/*googel maps*/
+.map{
+    width: 100vw;
+    max-height: 500px;
+}
+iframe{
+    width: 100vw;
+    max-height: 500px;
+}
+@media only screen and (max-width: 425px) {
+    .info{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        margin: 5%;
+    }
+    .form{
+        width: 90%;
+        min-height: 300px;
+        border: #b87a40 solid 1px;
+        box-shadow: 5px 5px 2px;
+        padding: 5px;
+        margin-right: 5%;
+    }
+    #textfield{
+        height: 60%;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .details{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        min-height: 500px;
+        margin-right: 5%;
+    }
+    .picture{
+        width: 90%;
+        min-height: 100px;
+        border: solid #b87a40 1px;
+        box-shadow: 5px 5px 2px;
+        background-image: url(../img/plant.jpg);
+        background-size: cover;
+        background-position:center
     }
     
+}
