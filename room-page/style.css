@@ -38,6 +38,19 @@
     main{
         border: 2px solid #b87a40;
     }
+
+    #main-box{
+        background-color: aliceblue;   
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .room-card{
+        width: 100%;
+        height: 300px;
+        border: 2px solid #b87a40;
+    }
     
     footer{
         border: 2px solid #b87a40;
