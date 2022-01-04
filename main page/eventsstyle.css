@@ -14,6 +14,11 @@ body {
 h1{text-align: center;
 margin: 25px;}
 h2{margin: 25px 75px;}
+.maincontainer{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 .container{
     padding:0px;
     margin: 0px;
@@ -35,7 +40,7 @@ h2{margin: 25px 75px;}
     height: 300px;
     margin: 0px 25px 0px 75px;
 }
-ul{
+ul, li{
     display: table;
     margin: 0 auto;
 }
@@ -43,4 +48,7 @@ ul{
     width:500px;
     word-wrap: break-word;
 }
-img{border: 5px #b87a40;}
+.wrap    { 
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }  
