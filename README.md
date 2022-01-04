@@ -12,6 +12,9 @@ room page: Colin
 
 contact page: Koen
 
+event page: Dante
+
+
 adres: schommelstraat 71 9000 gent
 
 Eva Joye
@@ -31,7 +34,7 @@ Expedia
 
 https://www.expedia.be/Ghent-Hotels-BNB-Nest.h29511611.Hotelinfo
 
-event page: Dante
+
 
 color-pallet:
 

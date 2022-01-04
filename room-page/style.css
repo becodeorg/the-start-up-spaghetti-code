@@ -2,94 +2,219 @@
     margin: 0;
     padding: 0;
 }
+.border{
+    border: 1px solid #b87a40;
+    border-radius: 10px;
+    
+}
 /* Small device*/
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 426px) {
+    .border{
+        border: 1px solid #b87a40;
+        border-radius: 10px;
+        
+    }
     .button{
-        margin: 5%;
+        margin: 2%;
+        padding: 2px;
+        background-color: #154551;
+        border: 1px solid #b87a40;
+        border-radius: 10px;
+        box-shadow: 2px 2px #25221e;
     }
     body{
         width: 100%;
         height: 100%;
-        background-color: #154551;
+        background-color: #000000;
         color: #b87a40;
         display: flex;
         flex-direction: column;
         text-align: center;
+        text-shadow: 1px 1px #25221e;
     }
     
     header{
-        border: 2px solid #b87a40;
+        /* border: 2px solid #b87a40; */
     }
 
-    #header-box{
+    .headerBox{
         display: flex;
         justify-content: center;
+        border: 1px solid #b87a40;
+        overflow: hidden;
     }
     
     nav{
-        border: 2px solid #b87a40;
+        /* border: 2px solid #b87a40; */
     }
 
-    #nav-box{
+    .navBox{
         display: flex;
         justify-content: center;
     }
     
     main{
-        border: 2px solid #b87a40;
+        /* border: 2px solid #b87a40; */
+        width: 100%;
+        height: 100%;
     }
 
-    #main-box{
-        background-color: aliceblue;   
+    .mainBox{
+        background-color: #154551;   
         display: flex;
         flex-direction: column;
-
+        
     }
 
-    .room-card{
+    .cardHolder{
+        width: 99%;
+        height: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        /* border: 2px solid #b87a40; */
+    }
+
+    .roomCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 100%;
-        height: 300px;
+        height: 100%;
+        /* border: 2px solid #b87a40; */
+    }
+
+    .cardImage{
+        width: 70%;
+        height: 50%;
         border: 2px solid #b87a40;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 3%;
+        box-shadow: 2px 3px #000000;
+    }
+
+    img{
+        object-fit: fill;
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .cardText{
+        background-color: #464442;
+        width: 80%;
+        max-height: fit-content;
     }
     
     footer{
-        border: 2px solid #b87a40;
+        background-color: #154551;
+        border: 1px solid #b87a40;
+        border-radius: 10px;
+        margin-top: 3%;
     }
 }
 
 /* Big device*/
 @media only screen and (min-width: 425px) {
-    .button{
-        margin: 5%;
+    .border{
+        border: 1px solid #b87a40;
+        border-radius: 10px;
+        
     }
-
-    body{
+    .button{
+        margin: 2%;
+        padding: 2px;
         background-color: #154551;
+        border: 1px solid #b87a40;
+        border-radius: 10px;
+        box-shadow: 2px 2px #25221e;
+    }
+    body{
+        width: 100%;
+        height: 100%;
+        background-color: #000000;
         color: #b87a40;
         display: flex;
         flex-direction: column;
         text-align: center;
+        text-shadow: 1px 1px #25221e;
     }
     
     header{
-        border: 2px solid #b87a40;
+        /* border: 2px solid #b87a40; */
+    }
+
+    .headerBox{
+        display: flex;
+        justify-content: center;
+        border: 1px solid #b87a40;
+        overflow: hidden;
     }
     
     nav{
-        border: 2px solid #b87a40;
+        /* border: 2px solid #b87a40; */
     }
 
-    #nav-box{
+    .navBox{
         display: flex;
         justify-content: center;
     }
     
     main{
+        /* border: 2px solid #b87a40; */
+        width: 100%;
+        height: 100%;
+    }
+
+    .mainBox{
+        background-color: #154551;   
+        display: flex;    
+    }
+
+    .cardHolder{
+        width: 99%;
+        height: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        /* border: 2px solid #b87a40; */
+    }
+
+    .roomCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        /* border: 2px solid #b87a40; */
+    }
+
+    .cardImage{
+        width: 70%;
+        height: 50%;
         border: 2px solid #b87a40;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 3%;
+        box-shadow: 2px 3px #000000;
+    }
+
+    img{
+        object-fit: fill;
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .cardText{
+        background-color: #464442;
+        width: 80%;
+        max-height: fit-content;
     }
     
     footer{
-        border: 2px solid #b87a40;
+        background-color: #154551;
+        border: 1px solid #b87a40;
+        border-radius: 10px;
+        margin-top: 3%;
     }
 }
-
