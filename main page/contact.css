@@ -11,9 +11,34 @@
 }
 
 /* contact banner*/
+.headerBox{
+    width: 97%;
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    border: 1px solid #b87a40;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #154551;
+    box-shadow:  3px 3px black;
+}
+.navBox{
+    display: flex;
+    justify-content: space-evenly;
+}
+.button{
+    width: 50%;
+    margin: 2%;
+    padding: 2px;
+    background-color: #154551;
+    border: 1px solid #b87a40;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+    text-align: center;
+}
 .top{
-    width: 90vw;
-    height: 20vh;
+    width: 97%;
+    height: 10vh;
     background-color: #154551;
     margin: auto;
     border: 1px solid #b87a40;
@@ -21,19 +46,19 @@
     box-shadow: 5px 4px #000000;
 }
 .top p{
-    font-size: 500%;
+    font-size: 300%;
     text-align: center;
-    line-height: 20vh;
+    line-height: 10vh;
 }
 
 /*main body*/
 .info{
     display: flex;
     flex-direction: row;
-    width: 90vw;
+    width: 97%;
     margin: auto;
     background-color: #464442;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 .form{
     width: 30%;
