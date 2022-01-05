@@ -14,7 +14,9 @@
 
     <!--Header-->
     <header>
+        <!--Header Container-->
         <div class="headerBox">
+            <!--Parallex-->
             <div class="parallexText">
                 <h1> Bed & Breakfast NEST</h1>
                 <p>Explore Beautiful Ghent</p>
@@ -24,21 +26,79 @@
     </header>
     <!--Navigation-->
     <nav>
-        <div class="button">ROOMS</div>
-        <div class="button">EVENTS</div>
-        <div class="button">CONTACT</div>
+
+        <div class="navBox">
+            <!--BUTTONS-->
+                <div class="button">ROOMS</div>
+                <div class="button">EVENTS</div>
+                <div class="button">CONTACT</div>
+    
+        </div>  
+
     </nav>
     <!--Main-->
     <main>
-        <div class="box">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate vitae eius voluptatem sint voluptatibus nobis incidunt dolorum animi fuga magnam possimus recusandae, eaque nesciunt iusto nulla aut quia inventore excepturi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit id aliquam animi ea illum sequi, ipsum architecto omnis iure voluptas cum maiores quia consequuntur ad doloribus fuga mollitia unde totam.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde repellat, ipsa assumenda ipsum temporibus numquam fugit quis ad tempore eligendi amet ratione excepturi in ea, commodi, molestias quidem magni ullam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat autem ratione, porro explicabo quos nisi! Necessitatibus non accusamus quasi laborum harum, animi in laboriosam dolorem! Rerum culpa ullam qui molestias.</p>
-        </div>
+        <div class="show">
+            <!-- Slideshow container -->
+            <div class="slideshow-container  fade">
+
+                <!-- Full images with numbers and message Info -->
+                <div class="Containers">
+                    <img src="../img/bnb_out_500.png" style="width:100%">
+                    <div class="Info">First caption</div>
+                </div>
+            
+                <div class="Containers">
+                    <img src="../img/jacuzz_kamer_500.png" style="width:100%">
+                    <div class="Info">Second Caption</div>
+                </div>
+            
+                <div class="Containers">
+                    <img src="../img/kamer_sauna_500_width.png" style="width:100%">
+                    <div class="Info">Third Caption</div>
+                </div>
+            
+                <!-- Back and forward buttons -->
+                <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>    
     </main>
     <!--Footer-->
     <Footer>
         &#169; 2022 by Team Spagetti-Code
     </Footer>
 
+<script>
+var slidePosition = 1;
+SlideShow(slidePosition);
+
+// forward/Back controls
+function plusSlides(n) {
+  SlideShow(slidePosition += n);
+}
+
+//  images controls
+function currentSlide(n) {
+  SlideShow(slidePosition = n);
+}
+
+function SlideShow(n) {
+  var i;
+  var slides = document.getElementsByClassName("Containers");
+  var circles = document.getElementsByClassName("dots");
+  if (n > slides.length) {slidePosition = 1}
+  if (n < 1) {slidePosition = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < circles.length; i++) {
+      circles[i].className = circles[i].className.replace(" enable", "");
+  }
+  slides[slidePosition-1].style.display = "block";
+  circles[slidePosition-1].className += " enable";
+} 
+ 
+</script>
 </body>
 </html>
