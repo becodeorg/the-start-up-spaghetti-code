@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+a{
+    display: block;
+    text-decoration: none;
+    color: #b87a40;
+    text-shadow: 1px 1px #25221ef6;
+}
+
 .border{
     border: 1px solid #b87a40;
     border-radius: 10px;
