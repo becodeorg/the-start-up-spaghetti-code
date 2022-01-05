@@ -1,5 +1,6 @@
-/*  background1: #154551
-    background2: #b87a40 */
+/*  background1: #464442
+    background2: #154551
+    accent: #b87a40 */
 * {
     margin: 0;
     padding: 0;    
@@ -9,6 +10,18 @@
     border-radius: 10px;
     
 }
+.myDivElement{
+    text-align:center;
+}
+ul{
+    display: table;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: inline;
+    text-align: center;
+    list-style: inside;
+}
+
 /* Small device*/
 @media only screen and (max-width: 426px) {
 .border{
@@ -17,13 +30,7 @@
     overflow: hidden;
     }
 }
-body {
-    height: 100%;
-    width: 100%;
-    background-color: #464442;
-    color: #b87a40;
-    font-size: 8;
-}
+
 h1{text-align: center;
 margin: 25px;}
 h2{margin: 25px 75px;}
@@ -31,6 +38,7 @@ h2{margin: 25px 75px;}
     display: inline-flex;
     flex-direction: column;
     flex-wrap: wrap;
+    
 }
 .container{
     padding:0px;
@@ -44,19 +52,16 @@ h2{margin: 25px 75px;}
     padding: 10px;
     width: 250px;
     height: 300px;
-    margin: 25px 25px 25px 5px;
+    margin: 0px 25px 25px 5px;
     line-height: 1em;
 }
 .flex-item-pic {
     padding: 0px;
     width: 300px;
     height: 300px;
-    margin: 25px 25px 25px 50px;
+    margin: 25px 0px 25px 50px;
 }
-ul, li{
-    display: table;
-    margin: 0 auto;
-}
+
 .breaking{    
     width:500px;
     word-wrap: break-word;
@@ -101,15 +106,24 @@ ul, li{
     .cardText{
         width: 250px;
         margin-left: 55px;
-        text-align: left;
+        text-align: right;
     }
     .flex-item-text{
         margin-left: 0px;
     }
     .mainBox{
-        width: 92%;
+        width: 95%;
+        margin: 0 auto;
     }
     .ul, .li{
         text-align: center;
     }
+}
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #464442;
+    color: #b87a40;
+    font-size: 8;
+    text-shadow: 1px 1px #25221e;
 }
