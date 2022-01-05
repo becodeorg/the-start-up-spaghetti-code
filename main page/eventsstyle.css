@@ -20,7 +20,7 @@
 body {
     height: 100%;
     width: 100%;
-    background-color: #154551;
+    background-color: #464442;
     color: #b87a40;
     font-size: 8;
 }
@@ -44,14 +44,15 @@ h2{margin: 25px 75px;}
     padding: 10px;
     width: 250px;
     height: 300px;
-    margin: 25px 25px 25px 25px;
+    margin: 25px 25px 25px 5px;
     line-height: 1em;
 }
 .flex-item-pic {
     padding: 0px;
     width: 300px;
     height: 300px;
-    margin: 25px 25px 25px 25px;
+    margin: 25px 25px 25px 50px;
+    text-align: center;
 }
 ul, li{
     display: table;
@@ -71,16 +72,37 @@ ul, li{
     background-color: #154551;   
     display: flex;
     flex-direction: column;
-    box-shadow: 5px 5px black;
+    box-shadow: 5px 5px #272727;
+    align-items: center;
 }
 .cardText{
     background-color: #464442;
     width: 80%;
     max-height: fit-content;
-    max-width: fit-content;
+    max-width: 300px;
     max-block-size: 125px;
-    margin-top: 3%;
+    margin-top: 6%;
     margin-bottom: 2%;
-    margin-left: 2%;
-    box-shadow: 3px 3px #000000;
+    margin-left: 45px;
+    box-shadow: 3px 3px #272727;
+    padding: 1%;
+}
+
+@media only screen and (max-width: 768px){
+    .img, .cardText{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 760px) {
+    img {
+         width: 250px;
+         height: 167px;
+    }
+    .cardText{
+        width: 250px;
+        padding-left: 50px;
+    }
+    .flex-item-text{
+        margin-left: 0px;
+    }
 }
