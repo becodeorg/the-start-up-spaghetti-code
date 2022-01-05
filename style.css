@@ -132,9 +132,10 @@ img{
   right: 0;
   border-radius: 4px 0 0 4px;
 }
+
 .Back{
-    left: 0;
-    border-radius: 4px 0 0 4px;
+  left: 0;
+  border-radius: 0 4px 4px 0;
 }
 
 /*when the user hovers,add a black background with some little opacity */
@@ -309,10 +310,12 @@ main{
   right: 0;
   border-radius: 4px 0 0 4px;
 }
+
 .Back{
-    left: 0;
-    border-radius: 4px 0 0 4px;
+  left: 0;
+  border-radius: 0 4px 4px 0;
 }
+
 
 /*when the user hovers,add a black background with some little opacity */
 .Back:hover, .forward:hover {
@@ -480,7 +483,7 @@ header{
 }
 .Back{
     left: 0;
-    border-radius: 4px 0 0 4px;
+    border-radius: 0 4px 4px 0;
 }
 
 /*when the user hovers,add a black background with some little opacity */
