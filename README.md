@@ -7,21 +7,17 @@
 _We will make a start up website for  Bed and Breakfast NEST_
 
 ***
+### What to do:
 
-## Who did what:
-## How did what:
+* README.md: Team
 
+* Home page: Team
 
+* Room page: Colin
 
-* README.md: All of us
+* Event page: Dante
 
-* home page: All of us 
-
-* room page: Colin
-
-* contact page: Koen
-
-* event page: Dante
+* Contact page: Koen
 
 ***
 
@@ -43,12 +39,12 @@ background-color: #154551;
 
 ## BNB Contact:
 
-name: Eva Joye
+Name: Eva Joye
 
-adres: schommelstraat 71 9000 gent
+Adres: schommelstraat 71 9000 gent
 
-telefoon: +32 477911634  
-email: info@nestingent.com
+Telefoon: +32 477911634  
+Email: info@nestingent.com
 
 ***
 
