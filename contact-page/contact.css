@@ -2,12 +2,11 @@
 * {
     margin: 0;
     padding: 0;
-    color: #b87a40;
-    
+    color: #b87a40;   
+    text-shadow: 1px 1px #25221e;
     }
 
 /* background*/
-
 .bg{
     background-color: #464442;
 }
@@ -75,7 +74,7 @@
 .form p{
     padding: 5px;
     text-align: center;
-    font-size: 25px;
+    font-size: 2vw;
 }
 #textfield{
     height: 60%;
@@ -86,6 +85,7 @@
     float: right;
     margin-top: 5px;
     margin-right: 5%;
+    background-color: #464442;
 }
 .details{
     display: flex;
@@ -131,12 +131,13 @@
 .pmain{
     padding: 5px;
     text-align: center;
-    font-size: 40px;
+    font-size: 4vw;
 }
 .punderline{
     font-family: sans-serif;
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 2vw;
+    line-height: 2vw;
 }
 
 /*googel maps*/
@@ -163,12 +164,7 @@ footer{
     text-align: center;
 }
 @media only screen and (max-width: 768px){
-.pmain{
-    font-size: 35px;
-}
-.punderline{
-    font-size: 15px;
-}
+
 }
 @media only screen and (max-width: 426px) {
 .info{
@@ -200,9 +196,6 @@ footer{
     text-align: center;
     background-color: #464442;
     margin: auto;
-    border: solid #b87a40 1px;
-    border-radius: 10px;
-    box-shadow: 5px 4px #000000;
 }
 .contact{
     height: 40%;
@@ -210,9 +203,17 @@ footer{
     text-align: center;
     background-color: #464442;
     margin: auto;
-    border: solid #b87a40 1px;
-    border-radius: 10px;
-    box-shadow: 5px 4px #000000;
+}
+.pmain{
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+.punderline{
+    font-family: sans-serif;
+    text-decoration: underline;
+    font-size: 15px;
+    line-height: 15px;
 }
 .picture{
     width: 97%;
