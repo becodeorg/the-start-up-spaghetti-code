@@ -4,14 +4,21 @@
     padding: 0;
     color: #b87a40;
     }
-body{
-    background-color: #154551;
+/* background*/
+
+.bg{
+    background-color: #464442;
 }
 
 /* contact banner*/
 .top{
-    width: 100vw;
+    width: 90vw;
     height: 20vh;
+    background-color: #154551;
+    margin: auto;
+    border: 1px solid #b87a40;
+    border-radius: 10px;
+    box-shadow: 5px 4px #000000;
 }
 .top p{
     font-size: 500%;
@@ -24,13 +31,17 @@ body{
     display: flex;
     flex-direction: row;
     width: 90vw;
-    margin: 5%;
+    margin: auto;
+    background-color: #464442;
+    margin-top: 5%;
 }
 .form{
     width: 30%;
     min-height: 500px;
+    background-color: #154551;
     border: #b87a40 solid 1px;
-    box-shadow: 5px 5px 2px;
+    border-radius: 10px;
+    box-shadow: 5px 4px #000000;
     padding: 5px;
     margin-right: 5%;
 }
@@ -50,26 +61,45 @@ body{
     margin-right: 5%;
 }
 .details{
+    display: flex;
+    flex-direction: column;
     width: 30%;
     min-height: 500px;
     margin-right: 5%;
+    background-color: #154551;
+    border: solid #b87a40 1px;
+    border-radius: 10px;
+    box-shadow: 5px 4px #000000;
 }
 .picture{
     width: 30%;
     min-height: 500px;
     border: solid #b87a40 1px;
-    box-shadow: 5px 5px 2px;
+    border-radius: 10px;
+    box-shadow: 5px 4px #000000;
     background-image: url(../img/plant.jpg);
     background-size: cover;
     background-position:center
 }
 .location{
-    height: 50%;
+    height: 40%;
+    width: 80%;
     text-align: center;
+    background-color: #464442;
+    margin: auto;
+    border: solid #b87a40 1px;
+    border-radius: 10px;
+    box-shadow: 5px 4px #000000;
 }
 .contact{
-    height: 50%;
-    text-align: center;  
+    height: 40%;
+    width: 80%;
+    text-align: center;
+    background-color: #464442;
+    margin: auto;
+    border: solid #b87a40 1px;
+    border-radius: 10px;
+    box-shadow: 5px 4px #000000;
 }
 .pmain{
     padding: 5px;
@@ -86,6 +116,7 @@ body{
 .map{
     width: 100vw;
     max-height: 500px;
+    margin-top: 5%;
 }
 iframe{
     width: 100vw;
