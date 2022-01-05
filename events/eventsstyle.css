@@ -46,6 +46,7 @@ h2{margin: 25px 75px;}
     display: inline-flex;
     flex-direction: row;
     border: 2px #b87a40;
+    justify-content: space-evenly;
     
 }
 .flex-item-text {
@@ -59,7 +60,7 @@ h2{margin: 25px 75px;}
     padding: 0px;
     width: 300px;
     height: 300px;
-    margin: 25px 0px 25px 50px;
+    margin: 50px 0px 25px 50px;
 }
 
 .breaking{    
@@ -105,8 +106,8 @@ h2{margin: 25px 75px;}
     }
     .cardText{
         width: 250px;
-        margin-left: 55px;
-        text-align: right;
+        margin-left: 30px;
+        text-align: left;
     }
     .flex-item-text{
         margin-left: 0px;
@@ -125,5 +126,5 @@ body {
     background-color: #464442;
     color: #b87a40;
     font-size: 8;
-    text-shadow: 1px 1px #25221e;
+    text-shadow: 2px 2px #25221e;
 }
