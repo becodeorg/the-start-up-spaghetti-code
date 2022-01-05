@@ -164,3 +164,8 @@ footer{
     box-shadow: 5px 5px black;
     text-align: center;
 } 
+.button:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
