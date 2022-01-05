@@ -58,7 +58,7 @@ header{
     box-shadow:  3px 3px black;
     /* Parallex */
     background-image: url(../img/gent.jpg);
-    background-position: center;
+    background-position:bottom;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -67,6 +67,7 @@ header{
 .parallexText{
     width: 80%;
     padding: 1%;
+    margin-top: 90%;
     align-self: center;
     border: 2px solid #b87a40;
     border-radius: 10px;
