@@ -1,14 +1,14 @@
-# the-start-up-spaghetti-code
+# ~~the-start-up-spaghetti-code~~
 
 # Bed and Breakfast NEST
 
-## By Koen, Dante and Colin.
+### By Koen, Dante and Colin.
 
-We will make a start up for  Bed and Breakfast NEST
+_We will make a start up website for  Bed and Breakfast NEST_
 
 ***
-
 ## How did what:
+
 
 
 * README.md: All of us
@@ -24,13 +24,17 @@ We will make a start up for  Bed and Breakfast NEST
 ***
 
 ## color-scheme:
-
-
-body-background-color:#464442;
-
-background-color: #154551;
-
+```css
+*{
+/* Font Color */
 color: #b87a40;
+/* Body background-color */
+background-color: #464442;
+/* Container background-color */
+background-color: #154551;
+}
+
+```
 
 
 ***
@@ -62,5 +66,6 @@ https://www.expedia.be/Ghent-Hotels-BNB-Nest.h29511611.Hotelinfo
 
 ***
 
+&copy; 2022 By Team-Spaghetti-Code
 
 
