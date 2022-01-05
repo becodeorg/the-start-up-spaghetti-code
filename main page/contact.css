@@ -11,9 +11,34 @@
 }
 
 /* contact banner*/
+.headerBox{
+    width: 97%;
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    border: 1px solid #b87a40;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #154551;
+    box-shadow:  3px 3px black;
+}
+.navBox{
+    display: flex;
+    justify-content: space-evenly;
+}
+.button{
+    width: 50%;
+    margin: 2%;
+    padding: 2px;
+    background-color: #154551;
+    border: 1px solid #b87a40;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+    text-align: center;
+}
 .top{
-    width: 90vw;
-    height: 20vh;
+    width: 97%;
+    height: 10vh;
     background-color: #154551;
     margin: auto;
     border: 1px solid #b87a40;
@@ -21,19 +46,19 @@
     box-shadow: 5px 4px #000000;
 }
 .top p{
-    font-size: 500%;
+    font-size: 300%;
     text-align: center;
-    line-height: 20vh;
+    line-height: 10vh;
 }
 
 /*main body*/
 .info{
     display: flex;
     flex-direction: row;
-    width: 90vw;
+    width: 97%;
     margin: auto;
     background-color: #464442;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 .form{
     width: 30%;
@@ -117,61 +142,77 @@
     width: 100vw;
     max-height: 500px;
     margin-top: 5%;
+
 }
 iframe{
-    width: 100vw;
+    width: 100%;
     max-height: 500px;
 }
-@media only screen and (max-width: 425px) {
-    .info{
-        display: flex;
-        flex-direction: column;
-        width: 90vw;
-        margin: 5%;
-        gap: 10px;
-    }
-    .form{
-        width: 90%;
-        min-height: 250px;
-        border: #b87a40 solid 1px;
-        box-shadow: 5px 5px 2px;
-        padding: 5px;
-        margin-right: 5%;
-    }
-    #textfield{
-        height: 60%;
-        width: 90%;
-        margin-left:5%;
-        min-height: 100px;
-    }
-    .details{
-        display: flex;
-        flex-direction: row;
-        width: 90%;
-        min-height: 200px;
-    }
-    .picture{
-        width: 100%;
-        min-height: 100px;
-        border: solid #b87a40 1px;
-        box-shadow: 5px 5px 2px;
-        background-image: url(../img/plant.jpg);
-        background-size: cover;
-        background-position:center
-    }
-    .pmain{
-        padding: 5px;
-        text-align: center;
-        font-size: 30px;
-    }
-    .punderline{
-        font-family: sans-serif;
-        text-decoration: underline;
-        font-size: 15px;
-    }
-    iframe{
-        width: 100vw;
-        max-height: 300px;
-    }
-    
+footer{
+    width: 97%;
+    margin-left: 1%;
+    background-color: #154551;
+    border: 1px solid #b87a40;
+    border-radius: 10px;
+    margin-top: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    box-shadow: 4px 4px black;
+    text-align: center;
+}
+@media only screen and (max-width: 768px){
+.pmain{
+    font-size: 35px;
+}
+.punderline{
+    font-size: 15px;
+}
+}
+@media only screen and (max-width: 426px) {
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    margin: auto;
+    background-color: #464442;
+    margin-top: 2%;
+    gap: 10px;
+}
+.form{
+    width: 97%;
+    min-height: 300px;
+}
+.details{
+    flex-direction: row;
+    width: 97%;
+    min-height: 200px;
+    gap: 5px;
+    padding: 5px;
+}
+.location{
+    height: 40%;
+    width: 80%;
+    text-align: center;
+    background-color: #464442;
+    margin: auto;
+    border: solid #b87a40 1px;
+    border-radius: 10px;
+    box-shadow: 5px 4px #000000;
+}
+.contact{
+    height: 40%;
+    width: 80%;
+    text-align: center;
+    background-color: #464442;
+    margin: auto;
+    border: solid #b87a40 1px;
+    border-radius: 10px;
+    box-shadow: 5px 4px #000000;
+}
+
+.picture{
+    width: 97%;
+    min-height: 100px;
+    padding: 5px;
+}
 }
