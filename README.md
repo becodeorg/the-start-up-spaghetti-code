@@ -4,12 +4,12 @@
 
 ### By Koen, Dante and Colin.
 
-_We will make a start up website for  Bed and Breakfast NEST_
+_We will make a startUP website for  Bed and Breakfast NEST_
 
 ***
 ### What to do:
 
-* README.md: Team
+* README: Team
 
 * Home page: Team
 
@@ -63,6 +63,29 @@ Expedia
 https://www.expedia.be/Ghent-Hotels-BNB-Nest.h29511611.Hotelinfo
 
 ***
+## Style
+
+Examples:
+````css
+/* Small device */
+@media only screen and (max-width: 427px) {
+.button{
+    width: 30%;
+    margin: 2%;
+    padding: 2px;
+    background-color: #154551;
+    border: 1px solid #b87a40;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+}
+
+.button:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+````
 
 &copy; 2022 By Team-Spaghetti-Code
 

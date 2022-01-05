@@ -403,7 +403,6 @@ header{
 .headerBox{
     width: 98%;
     height: 600px;
-    
     display: flex;
     margin-left: 1%;
     justify-content: center;
