@@ -4,6 +4,7 @@
     padding: 0;
     color: #b87a40;   
     text-shadow: 1px 1px #25221e;
+    text-decoration: none;
     }
 
 /* background*/
@@ -36,6 +37,9 @@
     border-radius: 10px;
     box-shadow: 5px 5px black;
     text-align: center;
+}
+a{
+    display: block;
 }
 .top{
     width: 97%;
