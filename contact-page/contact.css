@@ -104,7 +104,7 @@
     border: solid #b87a40 1px;
     border-radius: 10px;
     box-shadow: 5px 4px #000000;
-    background-image: url(../img/plant.jpg);
+    background-image: url(images/plant.jpg);
     background-size: cover;
     background-position:center
 }
