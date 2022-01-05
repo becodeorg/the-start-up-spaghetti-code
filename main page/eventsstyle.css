@@ -52,7 +52,6 @@ h2{margin: 25px 75px;}
     width: 300px;
     height: 300px;
     margin: 25px 25px 25px 50px;
-    text-align: center;
 }
 ul, li{
     display: table;
@@ -90,19 +89,24 @@ ul, li{
 
 @media only screen and (max-width: 768px){
     .img, .cardText{
-        text-align: center;
+        justify-content: center;
     }
 }
 @media screen and (max-width: 760px) {
     img {
          width: 250px;
          height: 167px;
+         margin-right: 25px;
     }
     .cardText{
         width: 250px;
-        padding-left: 50px;
+        margin-left: 55px;
+        text-align: left;
     }
     .flex-item-text{
         margin-left: 0px;
+    }
+    .mainBox{
+        width: 92%;
     }
 }
