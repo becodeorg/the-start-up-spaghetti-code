@@ -5,8 +5,7 @@
     color: #b87a40;
     
     }
-body{
-}
+
 /* background*/
 
 .bg{
@@ -215,7 +214,6 @@ footer{
     border-radius: 10px;
     box-shadow: 5px 4px #000000;
 }
-
 .picture{
     width: 97%;
     min-height: 100px;
