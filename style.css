@@ -173,9 +173,21 @@ img{
     border-radius: 10px;
     box-shadow: 3px 3px black;
     background-color: #154551;
-    margin-top: 3%;
+    margin-top: 2%;
     width: 97%;
     margin-left: 1%;
+}
+
+Footer{
+  margin-top: 2%;
+  margin-bottom: 1%;
+  width: 97%;
+  margin-left: 1%;
+  height: 30px;
+  border: 2px solid #b87a40;
+  border-radius: 10px;
+  box-shadow: 3px 3px black;
+  background-color: #154551;
 }
 
 }
