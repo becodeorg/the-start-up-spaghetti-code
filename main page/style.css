@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-width: 426px) {
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #464442;
+    color: #b87a40;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-shadow: 1px 1px #25221e;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+}
+.headerBox{
+    width: 97%;
+    height: 600px;
+    
+    display: flex;
+    margin-left: 1%;
+    justify-content: center;
+    border: 1px solid #b87a40;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #154551;
+    box-shadow:  3px 3px black;
+    /* Parallex */
+    background-image: url(../img/gent.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallexText{
+    padding: 1%;
+    align-self: center;
+    border: 2px solid #b87a40;
+    border-radius: 10px;
+    background-color: #154551d3;
+}
+}
+/* Tablet device */
+@media only screen and (min-width: 425px) and (max-width: 768px){
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #464442;
+    color: #b87a40;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-shadow: 1px 1px #25221e;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+}
+.headerBox{
+    width: 97%;
+    height: 600px;
+    
+    display: flex;
+    margin-left: 1%;
+    justify-content: center;
+    border: 1px solid #b87a40;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #154551;
+    box-shadow:  3px 3px black;
+    /* Parallex */
+    background-image: url(../img/gent.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallexText{
+    padding: 1%;
+    align-self: center;
+    border: 2px solid #b87a40;
+    border-radius: 10px;
+    background-color: #154551d3;
+}
+}
+
+/* Big device */
+@media only screen and (min-width: 768px) {
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #464442;
+    color: #b87a40;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-shadow: 1px 1px #25221e;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+}
+.headerBox{
+    width: 97%;
+    height: 600px;
+    
+    display: flex;
+    margin-left: 1%;
+    justify-content: center;
+    border: 1px solid #b87a40;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #154551;
+    box-shadow:  3px 3px black;
+    /* Parallex */
+    background-image: url(../img/gent.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallexText{
+    padding: 1%;
+    align-self: center;
+    border: 2px solid #b87a40;
+    border-radius: 10px;
+    background-color: #154551d3;
+}
+}
