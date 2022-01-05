@@ -8,7 +8,7 @@ We will make a start up for  Bed and Breakfast NEST
 
 ***
 
-## How did what:
+## Who did what:
 
 
 * README.md: All of us
