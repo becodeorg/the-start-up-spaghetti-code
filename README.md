@@ -7,12 +7,9 @@
 _We will make a start up website for  Bed and Breakfast NEST_
 
 ***
-<<<<<<< HEAD
 
 ## Who did what:
-=======
 ## How did what:
->>>>>>> 098aa4dd7c24c80816e44da4572e8105590d602b
 
 
 
