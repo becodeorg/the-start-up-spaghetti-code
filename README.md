@@ -6,7 +6,12 @@
 
 We will make a start up for  Bed and Breakfast NEST
 
+***
+
 ## How did what:
+
+
+* README.md: All of us
 
 * home page: All of us 
 
@@ -16,6 +21,20 @@ We will make a start up for  Bed and Breakfast NEST
 
 * event page: Dante
 
+***
+
+## color-scheme:
+
+
+body-background-color:#464442;
+
+background-color: #154551;
+
+color: #b87a40;
+
+
+***
+
 ## BNB Contact:
 
 name: Eva Joye
@@ -24,6 +43,8 @@ adres: schommelstraat 71 9000 gent
 
 telefoon: +32 477911634  
 email: info@nestingent.com
+
+***
 
 ## Resource links
 
@@ -39,10 +60,7 @@ Expedia
 
 https://www.expedia.be/Ghent-Hotels-BNB-Nest.h29511611.Hotelinfo
 
+***
 
 
-color-pallet:
-body-background:#464442;
-background-color: #154551;
-color: #b87a40;
 
