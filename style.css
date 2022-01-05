@@ -264,13 +264,11 @@ header{
     display: flex;
     justify-content: space-evenly;
 }
-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 .show{
+    margin-left: 20%;
     width: 100%;
+    background-color: #154551;
     border: 2px solid #b87a40;
     border-radius: 10px;
     overflow: hidden;
