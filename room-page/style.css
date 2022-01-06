@@ -255,9 +255,9 @@ footer{
 body{
     display: flex;
     flex-direction: column;
-    width: 99.8vw;
-    height: 100vh;
-    margin-left: 0.5%;
+    width: 100%;
+    height: 100%;
+    margin-left: 0.7%;
     background-color: #464442;
     color: #b87a40;
     text-align: center;
@@ -284,10 +284,10 @@ body{
 }
 
 main{
-    width: 100%;
+    width: 99.8%;
     height: 100%;
     display: flex;
-    margin-left: 0.1%;
+    margin-left: 0.2%;
 }
 
 .mainBox{
