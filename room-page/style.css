@@ -269,7 +269,7 @@ header{
 }
 .headerBox{
     display: flex;
-    width: 98%;
+    width: 99%;
     overflow: hidden;
     background-color: #154551;
     justify-content: center;
@@ -282,7 +282,7 @@ header{
 }
 
 nav{
-    width: 98%;
+    width: 99%;
 }
 
 .navBox{
@@ -291,7 +291,7 @@ nav{
 }
 
 main{
-    width: 98%;
+    width: 98.9%;
     height: 100%;
     display: flex;
     margin-left: 0.1%;
@@ -300,7 +300,8 @@ main{
 }
 
 .mainBox{
-    width: 98%;
+    width: 99%;
+    height: 300px;
     background-color: #154551;   
     display: flex;
     flex-direction: row;  
@@ -339,7 +340,6 @@ img{
     width: 80%;
     height: 50%;
     margin-top: 2%;
-    margin-bottom: 2%;
     padding: 2%;
     text-shadow: 2px 2px #000000;
 }
