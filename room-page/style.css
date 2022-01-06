@@ -267,7 +267,11 @@ a {
 }
 
 @media only screen and (min-width: 769px) {
-
+    .wave{
+        background:
+          linear-gradient(to right, rgb(116, 125, 165), rgb(134, 161, 184));
+        height: 100%;
+      }
     .border,
     .button,
     .headerBox,
@@ -277,7 +281,7 @@ a {
     footer {
         border: 1px solid #b87a40;
         border-radius: 10px;
-        box-shadow: 3px 3px black;
+        box-shadow: 10px 10px rgb(107, 51, 51);
     }
 
     .button {
@@ -286,7 +290,7 @@ a {
         margin-bottom: 1%;
         padding: 2px;
         background-color: #154551;
-        box-shadow: 6px 6px rgb(150, 32, 32);
+        box-shadow: 6px 6px rgb(129, 71, 71);
     }
 
     .button:hover {
@@ -305,6 +309,7 @@ a {
         color: #b87a40;
         text-align: center;
         text-shadow: 1px 1px #25221e;
+        font-size: medium;
     }
 
     header {
@@ -314,6 +319,7 @@ a {
     .headerBox {
         display: flex;
         width: 99%;
+        height: 100%;
         overflow: hidden;
         background-color: #154551;
         justify-content: center;
@@ -321,7 +327,6 @@ a {
 
     .brand {
         width: 20%;
-        margin-top: 1%;
         margin-bottom: 1%;
     }
 
