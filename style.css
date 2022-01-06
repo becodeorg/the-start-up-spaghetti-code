@@ -485,7 +485,7 @@ a {
   img {
     border: 2px solid #b87a40;
     border-radius: 10px;
-    box-shadow: 3px 3px black;
+    box-shadow: 3px 3px rgb(0, 0, 0);
   }
 
   .button {
@@ -493,7 +493,7 @@ a {
     margin: 1%;
     padding: 2px;
     background-color: #154551;
-    box-shadow: 5px 4px #af2020;
+    box-shadow: 5px 4px #773434;
   }
 
   .button:hover {

@@ -12,7 +12,11 @@ a {
 
 /* Small device*/
 @media only screen and (max-width: 426px) {
-
+    .wave{
+        background:
+          linear-gradient(to right, rgb(116, 125, 165), rgb(134, 161, 184));
+        height: 100%;
+      }
     .border,
     .headerBox,
     .button,
@@ -22,7 +26,10 @@ a {
     footer {
         border: 1px solid #b87a40;
         border-radius: 10px;
-        box-shadow: 3px 3px black;
+        box-shadow: 3px 3px rgba(0, 0, 0, 0.705);
+    }
+    .backGr{
+        background-color: #154551;
     }
 
     .button {
@@ -30,7 +37,7 @@ a {
         margin: 2%;
         padding: 2px;
         background-color: #154551;
-        box-shadow: 5px 4px #a11f1f;
+        box-shadow: 5px 4px #000000;
     }
 
     .button:hover {
@@ -82,6 +89,7 @@ a {
         background-color: #154551;
         margin-left: 1%;
     }
+
 
     .cardHolder {
         width: 99%;
