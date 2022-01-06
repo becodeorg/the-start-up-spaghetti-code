@@ -231,7 +231,9 @@ a {
         height: 100%;
         object-fit: fill;
     }
-
+    h2 {
+        padding-bottom: 10px;
+    }
     .cardText {
         display: flex;
         flex-direction: column;
@@ -341,7 +343,7 @@ a {
     }
 
     .cardHolder {
-        
+
         width: 400px;
         height: auto;
         margin-top: 1%;
@@ -366,6 +368,10 @@ a {
         width: 68%;
         height: 100%;
         object-fit: fill;
+    }
+
+    h2 {
+        padding-bottom: 10px;
     }
 
     .cardText {
