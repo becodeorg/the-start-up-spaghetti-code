@@ -11,7 +11,7 @@ a{
 
 /* Small device */
 @media only screen and (max-width: 427px) {Z
-.border, .button, .headerBox, .content1, .content2, Footer, img{
+.border, .button, .headerBox, .content1, .contentText1, .content2, .contentText2, Footer, img{
   border: 1px solid #b87a40;
   border-radius: 10px;
   box-shadow:3px 3px black;
@@ -176,6 +176,15 @@ img{
     margin-top: 2%;
     width: 97%;
     margin-left: 1%;
+}
+
+h3{
+  margin-top: 2%;
+}
+
+.contentText1, .contentText2{
+  margin: 2%;
+  padding: 1%;
 }
 
 Footer{
@@ -352,6 +361,15 @@ main{
   margin-top: 3%;
   width: 99%;
   margin-left: 0.5%;
+}
+
+h3{
+  margin-top: 10%;
+}
+
+.contentText1, .contentText2{
+  margin: 10%;
+  padding: 1%;
 }
 
 Footer{
@@ -540,6 +558,16 @@ main{
   height: 300px;
   margin-left: 1%;
 }
+
+h3{
+  margin-top: 5%;
+}
+
+.contentText1, .contentText2{
+  margin: 5%;
+  padding: 1%;
+}
+
 
 Footer{
   background-color: #154551;

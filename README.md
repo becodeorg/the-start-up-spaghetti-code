@@ -19,6 +19,8 @@ _We will make a startUP website for  Bed and Breakfast NEST_
 
 * Contact page: Koen
 
+* Presentation: Dante
+
 ***
 
 ## color-scheme:
