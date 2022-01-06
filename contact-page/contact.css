@@ -15,6 +15,7 @@
 /* contact banner*/
 .headerBox{
     width: 97%;
+    height: 100px;
     display: flex;
     margin:auto;
     justify-content: center;
@@ -23,26 +24,32 @@
     overflow: hidden;
     background-color: #154551;
     box-shadow:  3px 3px black;
+    align-items: center;
+}
+#nest-img{
+    border: 1px solid #b87a40;
+    border-radius: 10px;
+    box-shadow:  3px 3px black;
 }
 .navBox{
     display: flex;
     justify-content: space-evenly;
 }
 .button{
-    width: 50%;
+    width: 20%;
     margin: 2%;
     padding: 2px;
     background-color: #154551;
     border: 1px solid #b87a40;
     border-radius: 10px;
-    box-shadow: 5px 5px black;
+    box-shadow: 5px 4px #af2020;
     text-align: center;
 }
 .button:hover{
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
-  }
+}
 a{
     display: block;
 }
@@ -117,7 +124,7 @@ a{
     border: solid #b87a40 1px;
     border-radius: 10px;
     box-shadow: 5px 4px #000000;
-    margin: 2%;
+    margin: 4%;
     min-height: 15%;
     align-items: center;
     gap: 2%;
@@ -132,9 +139,10 @@ a{
     width: 100%;
     height: auto;
 }
+
 .picture{
     width: 30%;
-    min-height: 500px;
+    min-height: 200px;
     border: solid #b87a40 1px;
     border-radius: 10px;
     box-shadow: 5px 4px #000000;
@@ -167,7 +175,20 @@ footer{
     text-align: center;
 }
 @media only screen and (max-width: 768px){
-
+    .form{
+        min-height: 400px;
+    }
+    #textfield{
+        height: 40%;
+        width: 90%; 
+        margin-left: 5%;
+    }
+    .details{
+        min-height: 400px;
+    }
+    .picture{
+        min-height: 400px;
+    }
 }
 @media only screen and (max-width: 426px) {
 .info{
@@ -187,37 +208,13 @@ footer{
     height: 140px;
 }
 .details{
-    flex-direction: row;
+    
     width: 97%;
     min-height: 200px;
-    gap: 5px;
     padding: 5px;
+    font-size: 5vw;
 }
-.location{
-    height: 40%;
-    width: 45%;
-    text-align: center;
-    background-color: #464442;
-    margin: auto;
-}
-.contact{
-    height: 40%;
-    width: 45%;
-    text-align: center;
-    background-color: #464442;
-    margin: auto;
-}
-.pmain{
-    padding: 5px;
-    text-align: center;
-    font-size: 30px;
-}
-.punderline{
-    font-family: sans-serif;
-    text-decoration: underline;
-    font-size: 15px;
-    line-height: 15px;
-}
+
 .picture{
     width: 97%;
     min-height: 100px;
