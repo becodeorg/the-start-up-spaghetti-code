@@ -55,7 +55,7 @@ a {
     background-color: #154551;
     /* Parallex */
     background-image: url(../img/gent.jpg);
-    background-position: top;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -65,7 +65,7 @@ a {
   .parallexText {
     width: 80%;
     padding: 1%;
-    margin-top: 90%;
+    margin-bottom: 100%;
     align-self: center;
     background-color: #154551d3;
     text-align: center;
