@@ -11,7 +11,7 @@ a{
 
 /* Small device */
 @media only screen and (max-width: 427px) {Z
-.border, .button, .headerBox, .content1, .contentText1, .content2, .contentText2, Footer, img{
+.border, .button, .headerBox, .content1, .contentText1, .content2, .contentText2, Footer, img, .parallexText{
   border: 1px solid #b87a40;
   border-radius: 10px;
   box-shadow:3px 3px black;
@@ -68,7 +68,7 @@ header{
   margin: 2%;
   padding: 2px;
   background-color: #154551;
-  box-shadow: 5px 4px #af2020;
+  box-shadow: 3px 3px #af2020;
 }
 
 .button:hover{
@@ -181,6 +181,7 @@ img{
     background-color: #154551;
     margin-top: 2%;
     width: 97%;
+    height: 100%;
     margin-left: 1%;
 }
 
@@ -223,7 +224,7 @@ Footer{
   margin: 2%;
   padding: 2px;
   background-color: #154551;
-  box-shadow: 5px 4px #af2020;
+  box-shadow: 3px 3px #af2020;
 }
 
 .button:hover{
@@ -369,6 +370,8 @@ main{
   to {opacity: 2}
 }
 
+
+
 .content1, .content2{
   background-color: #154551;
   margin-top: 3%;
@@ -398,8 +401,8 @@ Footer{
 }
 /* Big device */
 @media only screen and (min-width: 768px) {
-.border, .button, .headerBox, .show, .content1, .content2, Footer, img{
-  border: 1px solid #b87a40;
+.border, .button, .headerBox, .show, .content1, .content2, .contentText1, .contentText2, Footer, img{
+  border: 2px solid #b87a40;
   border-radius: 10px;
   box-shadow:3px 3px black;
 }
@@ -477,6 +480,7 @@ main{
   margin-left: 1%;
   background-color: #154551;
   padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 * {box-sizing:border-box}
@@ -561,6 +565,7 @@ main{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  
 }
 
 .content1, .content2{
@@ -568,12 +573,13 @@ main{
   margin-top: 1%;
   margin: 1%;
   width: 48%;
-  height: 300px;
+  height: 100%;
   margin-left: 1%;
 }
 
 h3{
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .cardImage{
@@ -581,11 +587,19 @@ h3{
   height: 50%;
 }
 
-.contentText1, .contentText2{
-  margin: 5%;
-  padding: 1%;
+img{
+  max-width: 100%;
+  height: 100%;
 }
 
+.contentText1, .contentText2{
+  width: 98%;
+  height: 140px;
+  margin-left: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 1%;
+}
 
 Footer{
   background-color: #154551;
@@ -593,7 +607,7 @@ Footer{
   height: 50px;
   padding-top: 1%;
   padding-bottom: 1%;
-  margin-top: 1%;
+  margin-top: 0.1%;
   margin-left: 1%;
 }
 }
