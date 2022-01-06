@@ -3,17 +3,20 @@
     accent: #b87a40 */
 * {
     margin: 0;
-    padding: 0;    
+    padding: 0;
 }
-.border{
+
+.border {
     border: 1px solid #b87a40;
     border-radius: 10px;
-    
+
 }
-.myDivElement{
-    text-align:center;
+
+.myDivElement {
+    text-align: center;
 }
-ul{
+
+ul {
     display: table;
     margin: 0 auto;
     padding: 0 auto;
@@ -24,31 +27,39 @@ ul{
 
 /* Small device*/
 @media only screen and (max-width: 426px) {
-.border{
-    border: 1px solid #b87a40;
-    border-radius: 10px;
-    overflow: hidden;
+    .border {
+        border: 1px solid #b87a40;
+        border-radius: 10px;
+        overflow: hidden;
     }
 }
 
-h1{text-align: center;
-margin: 25px;}
-h2{margin: 25px 75px;}
-.maincontainer{
+h1 {
+    text-align: center;
+    margin: 25px;
+}
+
+h2 {
+    margin: 25px 75px;
+}
+
+.maincontainer {
     display: inline-flex;
     flex-direction: column;
     flex-wrap: wrap;
-    
+
 }
-.container{
-    padding:0px;
+
+.container {
+    padding: 0px;
     margin: 0px;
     display: inline-flex;
     flex-direction: row;
     border: 2px #b87a40;
     justify-content: space-evenly;
-    
+
 }
+
 .flex-item-text {
     padding: 10px;
     width: 250px;
@@ -56,6 +67,7 @@ h2{margin: 25px 75px;}
     margin: 0px 25px 25px 5px;
     line-height: 1em;
 }
+
 .flex-item-pic {
     padding: 0px;
     width: 300px;
@@ -63,24 +75,27 @@ h2{margin: 25px 75px;}
     margin: 50px 0px 25px 50px;
 }
 
-.breaking{    
-    width:500px;
+.breaking {
+    width: 500px;
     word-wrap: break-word;
 }
-.wrap    { 
+
+.wrap {
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
-  }  
-  .mainBox{
+}
+
+.mainBox {
     width: 97%;
     margin-left: 1%;
-    background-color: #154551;   
+    background-color: #154551;
     display: flex;
     flex-direction: column;
     box-shadow: 5px 5px #272727;
     align-items: center;
 }
-.cardText{
+
+.cardText {
     background-color: #464442;
     width: 80%;
     max-height: fit-content;
@@ -93,33 +108,42 @@ h2{margin: 25px 75px;}
     padding: 1%;
 }
 
-@media only screen and (max-width: 768px){
-    .img, .cardText{
+@media only screen and (max-width: 768px) {
+
+    .img,
+    .cardText {
         justify-content: center;
     }
 }
+
 @media screen and (max-width: 760px) {
     img {
-         width: 250px;
-         height: 167px;
-         margin-right: 25px;
+        width: 250px;
+        height: 167px;
+        margin-right: 25px;
     }
-    .cardText{
+
+    .cardText {
         width: 250px;
         margin-left: 30px;
         text-align: left;
     }
-    .flex-item-text{
+
+    .flex-item-text {
         margin-left: 0px;
     }
-    .mainBox{
+
+    .mainBox {
         width: 95%;
         margin: 0 auto;
     }
-    .ul, .li{
+
+    .ul,
+    .li {
         text-align: center;
     }
 }
+
 body {
     height: 100%;
     width: 100%;
@@ -128,21 +152,27 @@ body {
     font-size: 8;
     text-shadow: 2px 2px #25221e;
 }
-.headerBox{
+
+.headerBox {
     width: 97%;
+    height: 100px;
     display: flex;
-    margin-left: 1%;
+    margin: auto;
     justify-content: center;
     border: 1px solid #b87a40;
+    border-radius: 10px;
     overflow: hidden;
     background-color: #154551;
-    box-shadow:  3px 3px black;
+    box-shadow: 3px 3px black;
+    align-items: center;
 }
-.navBox{
+
+.navBox {
     display: flex;
     justify-content: space-evenly;
 }
-.button{
+
+.button {
     width: 50%;
     margin: 2%;
     padding: 2px;
@@ -150,9 +180,10 @@ body {
     border: 1px solid #b87a40;
     border-radius: 10px;
     box-shadow: 5px 4px #a11f1f;
-    
+
 }
-footer{
+
+footer {
     width: 98%;
     margin-left: 1%;
     background-color: #154551;
@@ -163,15 +194,24 @@ footer{
     padding-bottom: 1%;
     box-shadow: 5px 5px black;
     text-align: center;
-} 
-.button:hover{
+}
+
+.button:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
-a{
+
+a {
     display: block;
     text-decoration: none;
     color: #b87a40;
     text-shadow: 1px 1px #25221ef6
+}
+
+.brand{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    
+    
 }
