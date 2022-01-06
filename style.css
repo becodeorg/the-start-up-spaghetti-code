@@ -1,181 +1,211 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-a{
+
+a {
   display: block;
   text-decoration: none;
   color: #b87a40;
-  
+
 }
 
 /* Small device */
-@media only screen and (max-width: 427px) {Z
-.border, .button, .headerBox, .content1, .contentText1, .content2, .contentText2, Footer, img, .parallexText{
-  border: 1px solid #b87a40;
-  border-radius: 10px;
-  box-shadow:3px 3px black;
-} 
+@media only screen and (max-width: 427px) {
 
-body{
-  width: 100%;
-  height: 100%;
-  background-color: #464442;
-  color: #b87a40;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  text-shadow: 1px 1px #25221ef6;
-}
+  .border,
+  .button,
+  .headerBox,
+  .content1,
+  .contentText1,
+  .content2,
+  .contentText2,
+  Footer,
+  img,
+  .parallexText {
+    border: 1px solid #b87a40;
+    border-radius: 10px;
+    box-shadow: 3px 3px black;
+  }
 
-header{
-  width: 100%;
-  height: 100%;
-}
-/* Header box */
-.headerBox{
-  width: 97%;
-  height: 600px;
-  display: flex;
-  margin-left: 1%;
-  justify-content: center;
-  overflow: hidden;
-  background-color: #154551;
-  /* Parallex */
-  background-image: url(../img/gent.jpg);
-  background-position:top;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-/* Text parallex */
-.parallexText{
-  width: 80%;
-  padding: 1%;
-  margin-top: 90%;
-  align-self: center;
-  background-color: #154551d3;
-  text-align: center;
-}
+  body {
+    width: 100%;
+    height: 100%;
+    background-color: #464442;
+    color: #b87a40;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-shadow: 1px 1px #25221ef6;
+  }
 
-.navBox{
-  display: flex;
-  justify-content: space-evenly;
-}
+  header {
+    width: 100%;
+    height: 100%;
+  }
 
-.button{
-  width: 30%;
-  margin: 2%;
-  padding: 2px;
-  background-color: #154551;
-  box-shadow: 3px 3px #af2020;
-}
+  /* Header box */
+  .headerBox {
+    width: 97%;
+    height: 600px;
+    display: flex;
+    margin-left: 1%;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #154551;
+    /* Parallex */
+    background-image: url(../img/gent.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 
-.button:hover{
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-}
+  /* Text parallex */
+  .parallexText {
+    width: 80%;
+    padding: 1%;
+    margin-top: 90%;
+    align-self: center;
+    background-color: #154551d3;
+    text-align: center;
+  }
 
-.show{
-    width: 98%; 
-}
+  .navBox {
+    display: flex;
+    justify-content: space-evenly;
+  }
 
-* {box-sizing:border-box}
+  .button {
+    width: 30%;
+    margin: 2%;
+    padding: 2px;
+    background-color: #154551;
+    box-shadow: 3px 3px #af2020;
+  }
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  height: 70%;
-  position: relative;
-  overflow: hidden;
-  margin-left: 1%;
-}
+  .button:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
 
-/* Make the images invisible by default */
-.Containers {
-  display: none;
-  /* border: 1px solid #b87a40; */
-  /* border-radius: 10px; */
-  overflow: hidden;
-  padding-top: 1%;
+  .show {
+    width: 98%;
+  }
 
-}
-img{
+  * {
+    box-sizing: border-box
+  }
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    height: 70%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 1%;
+  }
+
+  /* Make the images invisible by default */
+  .Containers {
+    display: none;
+    /* border: 1px solid #b87a40; */
+    /* border-radius: 10px; */
+    overflow: hidden;
+    padding-top: 1%;
+
+  }
+
+  img {
     max-width: 100%;
     height: 100%;
-}
+  }
 
-/* forward & Back buttons */
-.Back, .forward {
-  cursor: pointer;
-  position: absolute;
-  top: 48%;
-  width: auto;
-  margin-top: -23px;
-  padding: 17px;
-  color: grey;
-  font-weight: bold;
-  font-size: 19px;
-  transition: 0.4s ease;
-  border-radius: 0 5px 5px 0;
-  user-select: none;
-}
+  /* forward & Back buttons */
+  .Back,
+  .forward {
+    cursor: pointer;
+    position: absolute;
+    top: 48%;
+    width: auto;
+    margin-top: -23px;
+    padding: 17px;
+    color: grey;
+    font-weight: bold;
+    font-size: 19px;
+    transition: 0.4s ease;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+  }
 
-/* Place the "forward button" to the right */
-.forward {
-  right: 0;
-  border-radius: 4px 0 0 4px;
-}
+  /* Place the "forward button" to the right */
+  .forward {
+    right: 0;
+    border-radius: 4px 0 0 4px;
+  }
 
-.Back{
-  left: 0;
-  border-radius: 0 4px 4px 0;
-}
+  .Back {
+    left: 0;
+    border-radius: 0 4px 4px 0;
+  }
 
-/*when the user hovers,add a black background with some little opacity */
-.Back:hover, .forward:hover {
-  background-color: rgba(0, 0, 0, 0.637);
-}
+  /*when the user hovers,add a black background with some little opacity */
+  .Back:hover,
+  .forward:hover {
+    background-color: rgba(0, 0, 0, 0.637);
+  }
 
-/* Caption Info */
-.Info {
-  color: #e3e3e3;
-  font-size: 16px;
-  padding: 10px 14px;
-  position: absolute;
-  bottom: 10px;
-  width: 100%;
-  text-align: center;
-}
+  /* Caption Info */
+  .Info {
+    color: #e3e3e3;
+    font-size: 16px;
+    padding: 10px 14px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
 
-.enable {
-  background-color: #717161;
-}
+  .enable {
+    background-color: #717161;
+  }
 
-/* Faint animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.4s;
-  animation-name: fade;
-  animation-duration: 1.4s;
-}
+  /* Faint animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.4s;
+    animation-name: fade;
+    animation-duration: 1.4s;
+  }
 
-@-webkit-keyframes fade {
-  from {opacity: .5}
-  to {opacity: 2}
-}
+  @-webkit-keyframes fade {
+    from {
+      opacity: .5
+    }
 
-@keyframes fade {
-  from {opacity: .5}
-  to {opacity: 2}
-}
-.contentBox{
-  display: flex;
-  flex-direction: column;
-}
+    to {
+      opacity: 2
+    }
+  }
 
-.content1, .content2{
+  @keyframes fade {
+    from {
+      opacity: .5
+    }
+
+    to {
+      opacity: 2
+    }
+  }
+
+  .contentBox {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content1,
+  .content2 {
     display: flex;
     flex-direction: column;
     background-color: #154551;
@@ -183,57 +213,70 @@ img{
     width: 97%;
     height: 100%;
     margin-left: 1%;
+  }
+
+  h3 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .cardImage {
+    align-self: center;
+    width: 70%;
+    height: 50%;
+    margin-bottom: 3%;
+  }
+
+  .contentText1,
+  .contentText2 {
+    margin: 2%;
+    padding: 1%;
+  }
+
+  Footer {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    width: 97%;
+    margin-left: 1%;
+    height: 30px;
+    background-color: #154551;
+  }
+
 }
 
-h3{
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-.cardImage{
-  align-self: center;
-  width: 70%;
-  height: 50%;
-  margin-bottom: 3%;
-}
-
-.contentText1, .contentText2{
-  margin: 2%;
-  padding: 1%;
-}
-
-Footer{
-  margin-top: 2%;
-  margin-bottom: 1%;
-  width: 97%;
-  margin-left: 1%;
-  height: 30px;
-  background-color: #154551;
-}
-
-}
 /* Tablet device */
-@media only screen and (min-width: 427px) and (max-width: 768px){
-.border, .button, .headerBox, .show, .content1, .content2, .contentText1, .contentText2, Footer, img{
-  border: 2px solid #b87a40;
-  border-radius: 10px;
-  box-shadow:3px 3px black;
-}
+@media only screen and (min-width: 427px) and (max-width: 768px) {
 
-.button{
-  width: 20%;
-  margin: 2%;
-  padding: 2px;
-  background-color: #154551;
-  box-shadow: 3px 3px #af2020;
-}
+  .border,
+  .button,
+  .headerBox,
+  .show,
+  .content1,
+  .content2,
+  .contentText1,
+  .contentText2,
+  Footer,
+  img {
+    border: 2px solid #b87a40;
+    border-radius: 10px;
+    box-shadow: 3px 3px black;
+  }
 
-.button:hover{
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-}
+  .button {
+    width: 20%;
+    margin: 2%;
+    padding: 2px;
+    background-color: #154551;
+    box-shadow: 3px 3px #af2020;
+  }
 
-body{
+  .button:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  body {
     width: 100%;
     height: 100%;
     background-color: #464442;
@@ -242,14 +285,14 @@ body{
     flex-direction: column;
     text-align: center;
     text-shadow: 1px 1px #25221e;
-}
+  }
 
-header{
+  header {
     width: 100%;
     height: 100%;
-}
+  }
 
-.headerBox{
+  .headerBox {
     width: 98%;
     height: 600px;
     display: flex;
@@ -263,362 +306,407 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
+  }
 
-.parallexText{
+  .parallexText {
     margin-top: 50%;
     padding: 1%;
     align-self: center;
     border: 2px solid #b87a40;
     border-radius: 10px;
     background-color: #154551d3;
-}
+  }
 
-.navBox{
+  .navBox {
     display: flex;
     justify-content: space-evenly;
-}
+  }
 
-main{
-  display: flex;
-  flex-direction: column;
-}
+  main {
+    display: flex;
+    flex-direction: column;
+  }
 
-.show{
-  width: 100%;
-  height: 100%;
-  background-color: #154551;
-  overflow: hidden;
-}
-
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 97%;
-  position: relative;
-}
-
-/* Make the images invisible by default */
-.Containers {
-  display: none;
-}
-
-/* forward & Back buttons */
-.Back, .forward {
-  cursor: pointer;
-  position: absolute;
-  top: 48%;
-  width: auto;
-  margin-top: -23px;
-  padding: 17px;
-  color: grey;
-  font-weight: bold;
-  font-size: 19px;
-  transition: 0.4s ease;
-  border-radius: 0 5px 5px 0;
-  user-select: none;
-}
-
-/* Place the "forward button" to the right */
-.forward {
-  right: 0;
-  border-radius: 4px 0 0 4px;
-}
-
-.Back{
-  left: 0;
-  border-radius: 0 4px 4px 0;
-}
-
-
-/*when the user hovers,add a black background with some little opacity */
-.Back:hover, .forward:hover {
-  background-color: rgba(0, 0, 0, 0.425);
-}
-
-/* Caption Info */
-.Info {
-  color: #e3e3e3;
-  font-size: 16px;
-  padding: 10px 14px;
-  position: absolute;
-  bottom: 10px;
-  width: 100%;
-  text-align: center;
-}
-
-.enable {
-  background-color: #717161;
-}
-
-/* Faint animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.4s;
-  animation-name: fade;
-  animation-duration: 1.4s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .5}
-  to {opacity: 2}
-}
-
-@keyframes fade {
-  from {opacity: .5}
-  to {opacity: 2}
-}
-
-
-.content1, .content2{
-  background-color: #154551;
-  margin-top: 3%;
-  width: 99%;
-  margin-left: 0.5%;
-}
-
-h3{
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.cardImage{
-  width: 98%;
-  height: 50%;
-}
-
-img{
-  max-width: 100%;
-  height: 100%;
-}
-
-
-.contentText1, .contentText2{
-  margin: 10%;
-  padding: 1%;
-}
-
-Footer{
-  background-color: #154551;
-  width: 99%;
-  height: 50px;
-  margin-top: 2%;
-  margin-left: 0.5%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-}
-
-}
-/* Big device */
-@media only screen and (min-width: 768px) {
-.border, .button, .headerBox, .show, .content1, .content2, .contentText1, .contentText2, Footer, img{
-  border: 2px solid #b87a40;
-  border-radius: 10px;
-  box-shadow:3px 3px black;
-}
-
-.button{
-  width: 20%;
-  margin: 1%;
-  padding: 2px;
-  background-color: #154551;
-  box-shadow: 5px 4px #af2020;
-}
-
-.button:hover{
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
-
-body{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  background-color: #464442;
-  color: #b87a40;
-  text-align: center;
-  text-shadow: 1px 1px #25221e;
-}
-
-header{
+  .show {
     width: 100%;
     height: 100%;
+    background-color: #154551;
+    overflow: hidden;
+  }
+
+  * {
+    box-sizing: border-box
+  }
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 97%;
+    position: relative;
+  }
+
+  /* Make the images invisible by default */
+  .Containers {
+    display: none;
+  }
+
+  /* forward & Back buttons */
+  .Back,
+  .forward {
+    cursor: pointer;
+    position: absolute;
+    top: 48%;
+    width: auto;
+    margin-top: -23px;
+    padding: 17px;
+    color: grey;
+    font-weight: bold;
+    font-size: 19px;
+    transition: 0.4s ease;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+  }
+
+  /* Place the "forward button" to the right */
+  .forward {
+    right: 0;
+    border-radius: 4px 0 0 4px;
+  }
+
+  .Back {
+    left: 0;
+    border-radius: 0 4px 4px 0;
+  }
+
+
+  /*when the user hovers,add a black background with some little opacity */
+  .Back:hover,
+  .forward:hover {
+    background-color: rgba(0, 0, 0, 0.425);
+  }
+
+  /* Caption Info */
+  .Info {
+    color: #e3e3e3;
+    font-size: 16px;
+    padding: 10px 14px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .enable {
+    background-color: #717161;
+  }
+
+  /* Faint animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.4s;
+    animation-name: fade;
+    animation-duration: 1.4s;
+  }
+
+  @-webkit-keyframes fade {
+    from {
+      opacity: .5
+    }
+
+    to {
+      opacity: 2
+    }
+  }
+
+  @keyframes fade {
+    from {
+      opacity: .5
+    }
+
+    to {
+      opacity: 2
+    }
+  }
+
+
+  .content1,
+  .content2 {
+    background-color: #154551;
+    margin-top: 3%;
+    width: 99%;
+    margin-left: 0.5%;
+  }
+
+  h3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .cardImage {
+    width: 98%;
+    height: 50%;
+  }
+
+  img {
+    max-width: 100%;
+    height: 100%;
+  }
+
+
+  .contentText1,
+  .contentText2 {
+    margin: 10%;
+    padding: 1%;
+  }
+
+  Footer {
+    background-color: #154551;
+    width: 99%;
+    height: 50px;
+    margin-top: 2%;
+    margin-left: 0.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
 }
 
-.headerBox{
-  width: 98%;
-  height: 600px;
-  display: flex;
-  justify-content: center;
-  margin-left: 1%;
-  overflow: hidden;
-  background-color: #154551;
-  /* Parallex */
-  background-image: url(../img/gent.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
+/* Big device */
+@media only screen and (min-width: 768px) {
 
-.parallexText{
-  padding: 1%;
-  align-self: center;
-  border: 2px solid #b87a40;
-  border-radius: 10px;
-  background-color: #154551d3;
-}
+  .border,
+  .button,
+  .headerBox,
+  .show,
+  .content1,
+  .content2,
+  .contentText1,
+  .contentText2,
+  Footer,
+  img {
+    border: 2px solid #b87a40;
+    border-radius: 10px;
+    box-shadow: 3px 3px black;
+  }
 
-.navBox{
-  display: flex;
-  justify-content: space-evenly;
-}
+  .button {
+    width: 20%;
+    margin: 1%;
+    padding: 2px;
+    background-color: #154551;
+    box-shadow: 5px 4px #af2020;
+  }
+
+  .button:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+
+  body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #464442;
+    color: #b87a40;
+    text-align: center;
+    text-shadow: 1px 1px #25221e;
+  }
+
+  header {
+    width: 100%;
+    height: 100%;
+  }
+
+  .headerBox {
+    width: 98%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-left: 1%;
+    overflow: hidden;
+    background-color: #154551;
+    /* Parallex */
+    background-image: url(../img/gent.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .parallexText {
+    padding: 1%;
+    align-self: center;
+    border: 2px solid #b87a40;
+    border-radius: 10px;
+    background-color: #154551d3;
+  }
+
+  .navBox {
+    display: flex;
+    justify-content: space-evenly;
+  }
 
 
 
-main{
-  width: 100%;
-  display: flex;
-  flex-direction: column; 
-}
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
 
-.show{
-  width: 98%;
-  margin-left: 1%;
-  background-color: #154551;
-  padding-top: 1%;
-  padding-bottom: 1%;
-}
+  .show {
+    width: 98%;
+    margin-left: 1%;
+    background-color: #154551;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
 
-* {box-sizing:border-box}
+  * {
+    box-sizing: border-box
+  }
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
 
-/* Make the images invisible by default */
-.Containers {
-  display: none;
-}
+  /* Make the images invisible by default */
+  .Containers {
+    display: none;
+  }
 
-/* forward & Back buttons */
-.Back, .forward {
-  cursor: pointer;
-  position: absolute;
-  top: 48%;
-  width: auto;
-  margin-top: -23px;
-  padding: 17px;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  font-size: 19px;
-  transition: 0.4s ease;
-  border-radius: 0 5px 5px 0;
-  user-select: none;
-}
+  /* forward & Back buttons */
+  .Back,
+  .forward {
+    cursor: pointer;
+    position: absolute;
+    top: 48%;
+    width: auto;
+    margin-top: -23px;
+    padding: 17px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 19px;
+    transition: 0.4s ease;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+  }
 
-/* Place the "forward button" to the right */
-.forward {
-  right: 10%;
-  border-radius: 4px 4px 4px 4px;
-}
-.Back{
+  /* Place the "forward button" to the right */
+  .forward {
+    right: 10%;
+    border-radius: 4px 4px 4px 4px;
+  }
+
+  .Back {
     left: 10%;
     border-radius: 4px 4px 4px 4px;
-}
+  }
 
-/*when the user hovers,add a black background with some little opacity */
-.Back:hover, .forward:hover {
-  background-color: rgba(0, 0, 0, 0.425);
-}
+  /*when the user hovers,add a black background with some little opacity */
+  .Back:hover,
+  .forward:hover {
+    background-color: rgba(0, 0, 0, 0.425);
+  }
 
-/* Caption Info */
-.Info {
-  color: #e3e3e3;
-  font-size: 16px;
-  padding: 10px 14px;
-  position: absolute;
-  bottom: 10px;
-  width: 100%;
-  text-align: center;
-}
+  /* Caption Info */
+  .Info {
+    color: #e3e3e3;
+    font-size: 16px;
+    padding: 10px 14px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
 
-.enable {
-  background-color: #717161;
-}
+  .enable {
+    background-color: #717161;
+  }
 
-/* Faint animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.4s;
-  animation-name: fade;
-  animation-duration: 1.4s;
-}
+  /* Faint animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.4s;
+    animation-name: fade;
+    animation-duration: 1.4s;
+  }
 
-@-webkit-keyframes fade {
-  from {opacity: .5}
-  to {opacity: 2}
-}
+  @-webkit-keyframes fade {
+    from {
+      opacity: .5
+    }
 
-@keyframes fade {
-  from {opacity: .5}
-  to {opacity: 2}
-}
+    to {
+      opacity: 2
+    }
+  }
 
-.contentBox{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  
-}
+  @keyframes fade {
+    from {
+      opacity: .5
+    }
 
-.content1, .content2{
-  background-color: #154551;
-  margin-top: 1%;
-  margin: 1%;
-  width: 48%;
-  height: 100%;
-  margin-left: 1%;
-}
+    to {
+      opacity: 2
+    }
+  }
 
-h3{
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
+  .contentBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
-.cardImage{
-  width: 98%;
-  height: 50%;
-}
+  }
 
-img{
-  max-width: 100%;
-  height: 100%;
-}
+  .content1,
+  .content2 {
+    background-color: #154551;
+    margin-top: 1%;
+    margin: 1%;
+    width: 48%;
+    height: 100%;
+    margin-left: 1%;
+  }
 
-.contentText1, .contentText2{
-  width: 98%;
-  height: 140px;
-  margin-left: 1%;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  padding: 1%;
-}
+  h3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
 
-Footer{
-  background-color: #154551;
-  width: 98%;
-  height: 50px;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  margin-top: 0.1%;
-  margin-left: 1%;
-}
+  .cardImage {
+    width: 98%;
+    height: 50%;
+  }
+
+  img {
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .contentText1,
+  .contentText2 {
+    width: 98%;
+    height: 140px;
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+  }
+
+  Footer {
+    background-color: #154551;
+    width: 98%;
+    height: 50px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 0.1%;
+    margin-left: 1%;
+  }
 }
