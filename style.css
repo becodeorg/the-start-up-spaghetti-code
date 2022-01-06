@@ -54,7 +54,7 @@ a {
     overflow: hidden;
     background-color: #154551;
     /* Parallex */
-    background-image: url(../img/gent.jpg);
+    background-image: url(./img/plant.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -65,7 +65,7 @@ a {
   .parallexText {
     width: 80%;
     padding: 1%;
-    margin-bottom: 100%;
+    margin-top: 100%;
     align-self: center;
     background-color: #154551d3;
     text-align: center;
