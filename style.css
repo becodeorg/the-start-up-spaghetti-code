@@ -392,12 +392,12 @@ Footer{
 
 .button{
     width: 20%;
-    margin: 2%;
+    margin: 1%;
     padding: 2px;
     background-color: #154551;
     border: 1px solid #b87a40;
     border-radius: 10px;
-    box-shadow: 5px 4px #000000;
+    box-shadow: 5px 4px #af2020;
 }
 
 .button:hover{
@@ -499,7 +499,7 @@ img{
   width: auto;
   margin-top: -23px;
   padding: 17px;
-  color: grey;
+  color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 19px;
   transition: 0.4s ease;
@@ -510,11 +510,11 @@ img{
 /* Place the "forward button" to the right */
 .forward {
   right: 10%;
-  border-radius: 4px 0 0 4px;
+  border-radius: 4px 4px 4px 4px;
 }
 .Back{
     left: 10%;
-    border-radius: 0 4px 4px 0;
+    border-radius: 4px 4px 4px 4px;
 }
 
 /*when the user hovers,add a black background with some little opacity */
@@ -555,15 +555,21 @@ img{
   to {opacity: 2}
 }
 
-.content1{
+.contentBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.content1, .content2{
   border: 2px solid #b87a40;
   border-radius: 10px;
   box-shadow: 3px 3px black;
   background-color: #154551;
-  margin-top: 3%;
-  width: 98%;
-  height: 50%;
-  margin-left: 1%;
+  margin-top: 1%;
+  width: 48%;
+  height: 300px;
+  margin-left: 0.3%;
 }
 
 Footer{
@@ -572,7 +578,10 @@ Footer{
   box-shadow: 3px 3px black;
   background-color: #154551;
   width: 98%;
-  margin-top: 3%;
+  height: 50px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 1%;
   margin-left: 1%;
 }
 }
