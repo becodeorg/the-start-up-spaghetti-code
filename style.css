@@ -10,7 +10,7 @@ a{
 }
 
 /* Small device */
-@media only screen and (max-width: 427px) {
+@media only screen and (max-width: 427px) {Z
 .border, .button, .headerBox, .content1, .content2, Footer, img{
   border: 1px solid #b87a40;
   border-radius: 10px;
@@ -68,6 +68,7 @@ header{
   margin: 2%;
   padding: 2px;
   background-color: #154551;
+  box-shadow: 5px 4px #af2020;
 }
 
 .button:hover{
@@ -200,6 +201,7 @@ Footer{
   margin: 2%;
   padding: 2px;
   background-color: #154551;
+  box-shadow: 5px 4px #af2020;
 }
 
 .button:hover{
