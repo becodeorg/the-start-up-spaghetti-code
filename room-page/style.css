@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-a{
+
+a {
     display: block;
     text-decoration: none;
     color: #b87a40;
@@ -11,345 +12,381 @@ a{
 
 /* Small device*/
 @media only screen and (max-width: 426px) {
-.border, .button, img, .cardText, footer{
-    border: 1px solid #b87a40;
-    border-radius: 10px;
-    box-shadow: 3px 3px black;  
-}
 
-.button{
-    width: 50%;
-    margin: 2%;
-    padding: 2px;
-    background-color: #154551;
-    box-shadow: 5px 4px #a11f1f;
-}
+    .border,
+    .headerBox,
+    .button,
+    .mainBox,
+    img,
+    .cardText,
+    footer {
+        border: 1px solid #b87a40;
+        border-radius: 10px;
+        box-shadow: 3px 3px black;
+    }
 
-.button:hover{
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-}
+    .button {
+        width: 50%;
+        margin: 2%;
+        padding: 2px;
+        background-color: #154551;
+        box-shadow: 5px 4px #a11f1f;
+    }
 
-body{
-    width: 100%;
-    height: 100%;
-    background-color: #464442;
-    color: #b87a40;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    text-shadow: 1px 1px #25221e;
-}
+    .button:hover {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+    }
 
-.headerBox{
-    width: 97%;
-    height: 100px;
-    display: flex;
-    margin-left: 1%;
-    justify-content: center;
-    overflow: hidden;
-    background-color: #154551;
-}
+    body {
+        width: 100%;
+        height: 100%;
+        background-color: #464442;
+        color: #b87a40;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        text-shadow: 1px 1px #25221e;
+    }
 
-.brand{
-    margin-top: 2%;
-    margin-bottom: 3%;
-}
+    .headerBox {
+        width: 97%;
+        height: 100px;
+        display: flex;
+        margin-left: 1%;
+        justify-content: center;
+        overflow: hidden;
+        background-color: #154551;
+    }
 
-.navBox{
-    display: flex;
-    justify-content: space-evenly;
-}
+    .brand {
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
 
-main{
-    width: 100%;
-    height: 100%;
-}
+    .navBox {
+        display: flex;
+        justify-content: space-evenly;
+    }
 
-.mainBox{
-    width: 97%;
-    display: flex;
-    flex-direction: column; 
-    background-color: #154551;  
-    margin-left: 1%; 
-}
+    main {
+        width: 100%;
+        height: 100%;
+    }
 
-.cardHolder{
-    width: 99%;
-    height: auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    /* border: 2px solid #b87a40; */
-}
+    .mainBox {
+        width: 97%;
+        display: flex;
+        flex-direction: column;
+        background-color: #154551;
+        margin-left: 1%;
+    }
 
-.roomCard{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    /* border: 2px solid #b87a40; */
-}
+    .cardHolder {
+        width: 99%;
+        height: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        /* border: 2px solid #b87a40; */
+    }
 
-.cardImage{
-    width: 70%;
-    height: 50%;
-    margin-bottom: 3%;
-}
+    .roomCard {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-img{
-    width: 100%;
-    height: 100%;
-    object-fit: fill; 
-}
+        /* border: 2px solid #b87a40; */
+    }
 
-.cardText{
-    width: 80%;
-    max-height: fit-content;
-    margin-top: 1%;
-    margin-bottom: 2%;
-}
+    .cardImage {
+        width: 70%;
+        height: 50%;
+        margin-bottom: 3%;
+    }
 
-footer{
-    width: 97%;
-    background-color: #154551;
-    margin-left: 1%;
-    margin-top: 3%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+
+    .cardText {
+        width: 80%;
+        max-height: fit-content;
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+
+    footer {
+        width: 97%;
+        background-color: #154551;
+        margin-left: 1%;
+        margin-top: 3%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
 }
 
 /* Tablet device*/
 @media only screen and (min-width: 426px) and (max-width: 768px) {
-.border, .button, .headerBox, img, .cardImage .cardText, footer{
-    border: 1px solid #b87a40;
-    border-radius: 10px;
-    box-shadow: 3px 3px black;  
-}
 
-.button{
-    width: 50%;
-    margin: 2%;
-    padding: 2px;
-    background-color: #154551;
-    box-shadow: 2px 2px rgb(160, 21, 21);   
-}
+    .border,
+    .headerBox,
+    .mainBox,
+    .button,
+    .headerBox,
+    img,
+    .cardImage .cardText,
+    footer {
+        border: 1px solid #b87a40;
+        border-radius: 10px;
+        box-shadow: 2px 2px black;
+    }
 
-.button:hover{
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-}
+    .button {
+        width: 50%;
+        margin: 2%;
+        padding: 2px;
+        background-color: #154551;
+        box-shadow: 4px 4px rgb(160, 21, 21);
+    }
 
-body{
-    width: 98%;
-    margin-left: 1%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: #464442;
-    color: #b87a40;
-    text-align: center;
-    text-shadow: 1px 1px #25221e;
-}
+    .button:hover {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+    }
 
-.headerBox{
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    background-color: #154551;
-}
+    body {
+        width: 98%;
+        margin-left: 1%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #464442;
+        color: #b87a40;
+        text-align: center;
+        text-shadow: 1px 1px #25221e;
+    }
 
-.brand{
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
+    .headerBox {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        background-color: #154551;
+    }
+
+    .brand {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
 
 
-.navBox{
-    display: flex;
-    justify-content: space-evenly;
-}
+    .navBox {
+        display: flex;
+        justify-content: space-evenly;
+    }
 
 
-main{
-    width: 100%;
-    height: 100%;
-}
+    main {
+        width: 100%;
+        height: 100%;
+    }
 
-.mainBox{
-    background-color: #154551;   
-    display: flex;
-    flex-direction: row;  
-    align-items: center;  
-}
+    .mainBox {
+        background-color: #154551;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
 
-.cardHolder{
-    width: 99%;
-    height: auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
+    .cardHolder {
+        width: 99%;
+        height: 100%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
 
-.roomCard{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
+    .roomCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
 
-.cardImage{
-    width: 97%;
-    height: 50%;
-    overflow: hidden;
-    margin-bottom: 3%; 
-}
+    .cardImage {
+        width: 97%;
+        height: 100%;
+        overflow: hidden;
+        margin-bottom: 3%;
+    }
 
-img{
-    width: 98%;
-    height: 100%;
-    object-fit: fill; 
-}
+    img {
+        width: 98%;
+        height: 100%;
+        object-fit: fill;
+    }
 
-.cardText{
-    background-color: #464442;
-    width: 80%;
-    max-height: fit-content;
-    padding: 2%;
-}
+    .cardText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #464442;
+        width: 80%;
+        height: 190px;
+        margin-top: 2%;
+        padding: 5%;
+        text-shadow: 2px 2px #000000;
+        text-align: justify;
+    }
 
-footer{
-    background-color: #154551;
-    margin-top: 3%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
+    footer {
+        background-color: #154551;
+        margin-top: 1%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
 }
 
 @media only screen and (min-width: 769px) {
-.border, .button, .headerBox, main, img, .cardImage .cardText, footer{
-    border: 1px solid #b87a40;
-    border-radius: 10px;
-    box-shadow: 3px 3px black;  
-}
 
-.button{
-    width: 20%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    padding: 2px;
-    background-color: #154551;
-    box-shadow: 3px 3px rgb(150, 32, 32); 
-}
+    .border,
+    .button,
+    .headerBox,
+    main,
+    img,
+    .cardImage .cardText,
+    footer {
+        border: 1px solid #b87a40;
+        border-radius: 10px;
+        box-shadow: 3px 3px black;
+    }
 
-.button:hover{
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-}
+    .button {
+        width: 20%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        padding: 2px;
+        background-color: #154551;
+        box-shadow: 6px 6px rgb(150, 32, 32);
+    }
 
-body{
-    display: flex;
-    flex-direction: column;
-    width: 99vw;
-    height: 100vh;
-    margin-left: 1%;
-    background-color: #464442;
-    color: #b87a40;
-    text-align: center;
-    text-shadow: 1px 1px #25221e;
-}
+    .button:hover {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+    }
 
-header{
-    width: 100%;
-}
-.headerBox{
-    display: flex;
-    width: 99%;
-    overflow: hidden;
-    background-color: #154551;
-    justify-content: center;
-}
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 99vw;
+        height: 100vh;
+        margin-left: 1%;
+        background-color: #464442;
+        color: #b87a40;
+        text-align: center;
+        text-shadow: 1px 1px #25221e;
+    }
 
-.brand{
-    width: 20%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
+    header {
+        width: 100%;
+    }
 
-nav{
-    width: 99%;
-}
+    .headerBox {
+        display: flex;
+        width: 99%;
+        overflow: hidden;
+        background-color: #154551;
+        justify-content: center;
+    }
 
-.navBox{
-    display: flex;
-    justify-content: space-evenly;
-}
+    .brand {
+        width: 20%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
 
-main{
-    width: 98.9%;
-    height: 100%;
-    display: flex;
-    margin-left: 0.1%;
-    overflow: hidden;
-    background-color: #154551;
-}
+    nav {
+        width: 99%;
+    }
 
-.mainBox{
-    width: 99%;
-    height: 300px;
-    background-color: #154551;   
-    display: flex;
-    flex-direction: row;  
-    align-items: center; 
-}
+    .navBox {
+        display: flex;
+        justify-content: space-evenly;
+    }
 
-.cardHolder{
-    height: auto;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
+    main {
+        width: 99%;
+        height: 100%;
+        display: flex;
+        overflow: hidden;
+        background-color: #154551;
+        margin-top: 0.5%;
+    }
 
-.roomCard{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 98%;
-    height: 100%;
-    margin-left: 1%;
-}
+    .mainBox {
+        width: 100%;
+        height: 100%;
+        background-color: #154551;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
 
-.cardImage{
-    width: 100%;
-    height: auto;
-}
+    .cardHolder {
+        
+        width: 400px;
+        height: auto;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
 
-img{
-    width: 98%;
-    height: 100%;
-    object-fit: fill;  
-}
+    .roomCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 98%;
+        height: 100%;
+        margin-left: 1%;
+    }
 
-.cardText{
-    background-color: #464442;
-    width: 80%;
-    height: 50%;
-    margin-top: 2%;
-    padding: 2%;
-    text-shadow: 2px 2px #000000;
-}
+    .cardImage {
+        width: 100%;
+    }
 
-footer{
-    width: 98%;
-    margin-left: 0.1%;
-    background-color: #154551;
-    margin-top: 2%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}    
+    img {
+        width: 68%;
+        height: 100%;
+        object-fit: fill;
+    }
+
+    .cardText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #464442;
+        width: 80%;
+        height: 190px;
+        margin-top: 2%;
+        padding: 7%;
+        text-shadow: 2px 2px #000000;
+        text-align: justify;
+    }
+
+    footer {
+        width: 99%;
+        margin-left: 0.1%;
+        background-color: #154551;
+        margin-top: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
 }
