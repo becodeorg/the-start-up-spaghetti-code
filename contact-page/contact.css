@@ -106,6 +106,31 @@ a{
     border: solid #b87a40 1px;
     border-radius: 10px;
     box-shadow: 5px 4px #000000;
+    justify-content: center;
+    text-align: center;
+    gap: 10%;
+    font-size: 2vw;
+}
+.address, .email, .phone{
+    display: flex;
+    background-color: #464442;
+    border: solid #b87a40 1px;
+    border-radius: 10px;
+    box-shadow: 5px 4px #000000;
+    margin: 2%;
+    min-height: 15%;
+    align-items: center;
+    gap: 2%;
+    padding-top: 2%;
+}
+.icon{
+    width: 10%;
+    height: auto;
+    margin-left: 2%;
+}
+.img{
+    width: 100%;
+    height: auto;
 }
 .picture{
     width: 30%;
@@ -116,37 +141,6 @@ a{
     background-image: url(images/plant.jpg);
     background-size: cover;
     background-position:center
-}
-.location{
-    height: 40%;
-    width: 80%;
-    text-align: center;
-    background-color: #464442;
-    margin: auto;
-    border: solid #b87a40 1px;
-    border-radius: 10px;
-    box-shadow: 5px 4px #000000;
-}
-.contact{
-    height: 40%;
-    width: 80%;
-    text-align: center;
-    background-color: #464442;
-    margin: auto;
-    border: solid #b87a40 1px;
-    border-radius: 10px;
-    box-shadow: 5px 4px #000000;
-}
-.pmain{
-    padding: 5px;
-    text-align: center;
-    font-size: 4vw;
-}
-.punderline{
-    font-family: sans-serif;
-    text-decoration: underline;
-    font-size: 2vw;
-    line-height: 2vw;
 }
 
 /*googel maps*/
