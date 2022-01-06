@@ -570,13 +570,17 @@ a {
 
   /* Slideshow container */
   .slideshow-container {
-    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    
     position: relative;
     margin: auto;
   }
 
   /* Make the images invisible by default */
   .Containers {
+    width: 97%;
+    margin-left: 1.3%;
     display: none;
   }
 
@@ -612,17 +616,6 @@ a {
   .Back:hover,
   .forward:hover {
     background-color: rgba(0, 0, 0, 0.425);
-  }
-
-  /* Caption Info */
-  .Info {
-    color: #e3e3e3;
-    font-size: 16px;
-    padding: 10px 14px;
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-    text-align: center;
   }
 
   .enable {
