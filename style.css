@@ -170,8 +170,14 @@ img{
   from {opacity: .5}
   to {opacity: 2}
 }
+.contentBox{
+  display: flex;
+  flex-direction: column;
+}
 
 .content1, .content2{
+    display: flex;
+    flex-direction: column;
     background-color: #154551;
     margin-top: 2%;
     width: 97%;
@@ -180,6 +186,13 @@ img{
 
 h3{
   margin-top: 2%;
+  margin-bottom: 2%;
+}
+.cardImage{
+  align-self: center;
+  width: 70%;
+  height: 50%;
+  margin-bottom: 3%;
 }
 
 .contentText1, .contentText2{
@@ -561,6 +574,11 @@ main{
 
 h3{
   margin-top: 5%;
+}
+
+.cardImage{
+  width: 98%;
+  height: 50%;
 }
 
 .contentText1, .contentText2{
