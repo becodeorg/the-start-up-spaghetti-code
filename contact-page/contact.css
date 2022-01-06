@@ -204,6 +204,9 @@ footer{
     width: 97%;
     min-height: 300px;
 }
+.form p{
+    font-size: 5vw;
+}
 #textfield{
     height: 140px;
 }
