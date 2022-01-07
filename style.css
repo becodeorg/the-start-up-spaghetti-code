@@ -707,3 +707,18 @@ a {
     margin-left: 1%;
   }
 }
+.button{
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  justify-content: center;
+
+}
+/* .arrow {
+  border:none;
+  box-shadow: none;
+} */
+#arrow{
+  width:20px;
+  height: auto;
+}

@@ -74,7 +74,9 @@ img{
     width: 250px;
     height: 300px;
     margin: 0px 25px 25px 5px;
-    line-height: 1em;
+    line-height: 30px;
+    text-align: center;
+    vertical-align:bottom;
 }
 
 .flex-item-pic {
@@ -166,14 +168,13 @@ body {
     width: 97%;
     height: 100px;
     display: flex;
-    margin: auto;
+    margin-left: 1%;
     justify-content: center;
-    border: 1px solid #b87a40;
-    border-radius: 10px;
     overflow: hidden;
     background-color: #154551;
-    box-shadow: 3px 3px black;
     align-items: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.705);
 }
 
 .brand{
@@ -227,3 +228,12 @@ a {
     text-shadow: 1px 1px #25221ef6
 }
 
+<<<<<<< HEAD
+=======
+.brand{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    
+    
+}
+>>>>>>> 589c4d0c9dcb6b8953fb2b52e6776fae9aa57d27
