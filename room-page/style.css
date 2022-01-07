@@ -223,7 +223,7 @@ a {
 
     .cardHolder {
         width: 99%;
-        height: 100%;
+        height: 99%;
         margin-top: 2%;
         margin-bottom: 2%;
     }
@@ -238,9 +238,9 @@ a {
 
     .cardImage {
         width: 97%;
-        height: 100%;
+        height: 95%;
         overflow: hidden;
-        margin-bottom: 3%;
+        margin-bottom: 1%;
     }
 
     img {
@@ -367,8 +367,8 @@ a {
 
     .cardHolder {
 
-        width: 400px;
-        height: auto;
+        width: 370px;
+        height: 80%;
         margin-top: 1%;
         margin-bottom: 1%;
     }
