@@ -25,7 +25,7 @@ https://bnb-nest.netlify.app/index.html
 
 ***
 
-## color-scheme:
+# color-scheme:
 ```css
 *{
 /* Font Color */
@@ -40,6 +40,31 @@ background-color: #154551;
 
 
 ***
+# TEAM contact:
+
+### Colin 
+Name: Colin Renkema
+
+Adres: schommelstraat 71 9000 gent
+
+Telefoon: +32 476361577
+Email: cskeith01@gmail.com
+
+### Dante
+Name: 
+
+Adres: 
+
+Telefoon: 
+Email: 
+
+### Koen
+Name: 
+
+Adres: 
+
+Telefoon: 
+Email: 
 
 ## BNB Contact:
 
