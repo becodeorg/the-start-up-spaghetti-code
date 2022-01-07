@@ -30,6 +30,7 @@ ul {
     .border {
         border: 1px solid #b87a40;
         border-radius: 10px;
+        box-shadow: 2px 2px black;
         overflow: hidden;
     }
 }
@@ -41,6 +42,14 @@ h1 {
 
 h2 {
     margin: 25px 75px;
+}
+.headerBox{
+    display: flex;
+    height: 100%;
+}
+
+img{
+    box-shadow: 3px 3px black;
 }
 
 .maincontainer {
@@ -116,7 +125,7 @@ h2 {
     }
 }
 
-@media screen and (max-width: 760px) {
+@media only screen and (min-width: 426px) and (max-width: 760px) {
     img {
         width: 250px;
         height: 167px;
@@ -167,6 +176,15 @@ body {
     align-items: center;
 }
 
+.brand{
+    display: flex;
+    justify-self: center;
+    margin-left: 8%;
+    margin: 5%;
+    
+}
+
+
 .navBox {
     display: flex;
     justify-content: space-evenly;
@@ -209,9 +227,3 @@ a {
     text-shadow: 1px 1px #25221ef6
 }
 
-.brand{
-    margin-top: 2%;
-    margin-bottom: 3%;
-    
-    
-}
