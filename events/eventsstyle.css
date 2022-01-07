@@ -83,7 +83,7 @@ img{
     padding: 0px;
     width: 300px;
     height: 300px;
-    margin: 50px 0px 25px 50px;
+    margin: 50px 10px 25px 50px;
 }
 
 .breaking {
@@ -219,11 +219,8 @@ a {
     color: #b87a40;
     text-shadow: 1px 1px #25221ef6
 }
-<<<<<<< HEAD
-=======
 .brand{
     margin-top: 2%;
     margin-bottom: 3%;
 }
->>>>>>> 2bbeb6c58337449ae8b893c1775222041b873701
 

@@ -729,3 +729,6 @@
   width:20px;
   height: auto;
 }
+a {
+  display: block;
+}

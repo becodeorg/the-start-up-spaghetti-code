@@ -52,12 +52,12 @@ Telefoon: +32 476361577
 Email: cskeith01@gmail.com
 
 ## Dante
-Name: 
+Name: Dante Cand 
 
-Adres: 
+Adres: / 
 
-Telefoon: 
-Email: 
+Telefoon:  +32 495767053
+Email: cand.dante@gmail.com
 
 ## Koen
 Name: 
