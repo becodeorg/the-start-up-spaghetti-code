@@ -12,6 +12,12 @@ a {
 
 /* Small device*/
 @media only screen and (max-width: 426px) {
+    a {
+        display: block;
+        text-decoration: none;
+        color: #b87a40;
+        text-shadow: 1px 1px #25221ef6;
+    }
     
     .border,
     .headerBox,
@@ -137,7 +143,13 @@ a {
 
 /* Tablet device*/
 @media only screen and (min-width: 426px) and (max-width: 768px) {
-
+    a {
+        display: block;
+        text-decoration: none;
+        color: #b87a40;
+        text-shadow: 1px 1px #25221ef6;
+    }
+    
     .border,
     .headerBox,
     .mainBox,
@@ -261,14 +273,10 @@ a {
         padding-bottom: 2%;
     }
 }
-
+/* Big device */
 @media only screen and (min-width: 769px) {
-    .wave {
-        background:
-            linear-gradient(to right, rgb(116, 125, 165), rgb(134, 161, 184));
-        height: 100%;
-    }
-
+    
+    
     .border,
     .button,
     .headerBox,
@@ -280,6 +288,8 @@ a {
         border-radius: 10px;
         box-shadow: 5px 5px rgb(0, 0, 0);
     }
+
+    
 
     .button {
         width: 20%;
@@ -409,4 +419,5 @@ a {
         padding-top: 1%;
         padding-bottom: 1%;
     }
+    
 }
