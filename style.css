@@ -707,3 +707,14 @@ a {
     margin-left: 1%;
   }
 }
+.button{
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  justify-content: center;
+
+}
+#arrow{
+  width:20px;
+  height: auto;
+}
