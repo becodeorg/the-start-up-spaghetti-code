@@ -42,7 +42,7 @@ background-color: #154551;
 ***
 # TEAM contact:
 
-### Colin 
+## Colin 
 Name: Colin Renkema
 
 Adres: schommelstraat 71 9000 gent
@@ -50,7 +50,7 @@ Adres: schommelstraat 71 9000 gent
 Telefoon: +32 476361577
 Email: cskeith01@gmail.com
 
-### Dante
+## Dante
 Name: 
 
 Adres: 
@@ -58,7 +58,7 @@ Adres:
 Telefoon: 
 Email: 
 
-### Koen
+## Koen
 Name: 
 
 Adres: 
