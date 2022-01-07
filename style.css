@@ -3,15 +3,14 @@
   padding: 0;
 }
 
-a {
-  display: block;
-  text-decoration: none;
-  color: #b87a40;
-
-}
-
 /* Small device */
 @media only screen and (max-width: 427px) {
+  a {
+    display: block;
+    text-decoration: none;
+    color: #b87a40;
+    text-shadow: 1px 1px #25221ef6;
+}
 
   .border,
   .button,
@@ -248,6 +247,12 @@ a {
 
 /* Tablet device */
 @media only screen and (min-width: 427px) and (max-width: 768px) {
+  a {
+    display: block;
+    text-decoration: none;
+    color: #b87a40;
+    text-shadow: 1px 1px #25221ef6;
+}
 
   .border,
   .button,
@@ -474,6 +479,12 @@ a {
 
 /* Big device */
 @media only screen and (min-width: 768px) {
+  a {
+    display: block;
+    text-decoration: none;
+    color: #b87a40;
+    text-shadow: 1px 1px #25221ef6;
+}
 
   .border,
   .button,
