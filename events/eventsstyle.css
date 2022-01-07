@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-.border {
+.border, .headerBox {
     border: 1px solid #b87a40;
     border-radius: 10px;
 
