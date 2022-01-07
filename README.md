@@ -48,6 +48,7 @@ Name: Colin Renkema
 Adres: schommelstraat 71 9000 gent
 
 Telefoon: +32 476361577
+
 Email: cskeith01@gmail.com
 
 ## Dante
@@ -65,7 +66,7 @@ Adres:
 
 Telefoon: 
 Email:
- 
+
 ***
 
 ## BNB Contact:
