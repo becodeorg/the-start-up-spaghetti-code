@@ -6,6 +6,8 @@
 
 _We will make a startUP website for  Bed and Breakfast NEST_
 
+https://bnb-nest.netlify.app/index.html
+
 ***
 ### What to do:
 

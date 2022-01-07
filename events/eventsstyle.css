@@ -148,13 +148,11 @@ img{
         width: 95%;
         margin: 0 auto;
     }
-
     .ul,
     .li {
         text-align: center;
     }
 }
-
 body {
     height: 100%;
     width: 100%;
@@ -163,7 +161,6 @@ body {
     font-size: 8;
     text-shadow: 2px 2px #25221e;
 }
-
 .headerBox {
     width: 97%;
     height: 100px;
@@ -190,7 +187,6 @@ body {
     display: flex;
     justify-content: space-evenly;
 }
-
 .button {
     width: 50%;
     margin: 2%;
@@ -199,9 +195,7 @@ body {
     border: 1px solid #b87a40;
     border-radius: 10px;
     box-shadow: 5px 4px #a11f1f;
-
 }
-
 footer {
     width: 98%;
     margin-left: 1%;
@@ -214,17 +208,22 @@ footer {
     box-shadow: 5px 5px black;
     text-align: center;
 }
-
 .button:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
-
 a {
     display: block;
     text-decoration: none;
     color: #b87a40;
     text-shadow: 1px 1px #25221ef6
 }
+<<<<<<< HEAD
+=======
+.brand{
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+>>>>>>> 2bbeb6c58337449ae8b893c1775222041b873701
 
